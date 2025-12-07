@@ -1,0 +1,12 @@
+BALANCE - coul
+Exercice 2025
+Édité le 26/11/2025 20:25
+
+Compte;Intitulé;Débit;Crédit;Solde
+401000;Fournisseurs;0.00;2300.00;-2300.00
+411000;Clients;2400.00;0.00;2400.00
+445660;TVA déductible sur biens et services;300.00;0.00;300.00
+445710;TVA collectée;0.00;400.00;-400.00
+606000;Achats non stockés de matières et fournitures;1500.00;0.00;1500.00
+607000;Achats de marchandises;500.00;0.00;500.00
+707000;Ventes de marchandises;0.00;2000.00;-2000.00

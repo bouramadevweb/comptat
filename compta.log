@@ -1,0 +1,951 @@
+2025-11-22 21:11:29,900 - __main__ - INFO - ============================================================
+2025-11-22 21:11:29,900 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-11-22 21:11:29,900 - __main__ - INFO - ============================================================
+2025-11-22 21:11:29,900 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-11-22 21:11:29,949 - __main__ - INFO - ✅ Toutes les dépendances sont installées
+2025-11-22 21:11:29,949 - __main__ - INFO - 🔍 Vérification de la configuration...
+2025-11-22 21:11:29,950 - __main__ - INFO - ✅ Configuration OK
+2025-11-22 21:11:29,950 - __main__ - INFO - 🔍 Test de connexion à la base de données...
+2025-11-22 21:11:29,952 - database - INFO - ✅ Connexion à la base de données établie
+2025-11-22 21:11:29,953 - __main__ - INFO - ✅ Connecté à : COMPTA
+2025-11-22 21:11:29,953 - __main__ - INFO - ✅ Version MySQL : 10.11.13-MariaDB-0ubuntu0.24.04.1
+2025-11-22 21:11:29,953 - database - INFO - 🔌 Connexion fermée
+2025-11-22 21:11:29,953 - __main__ - INFO - 🚀 Lancement de l'interface graphique...
+2025-11-22 21:11:30,093 - database - INFO - ✅ Connexion à la base de données établie
+2025-11-22 21:11:30,093 - gui_main - INFO - ✅ Application démarrée
+2025-11-22 21:11:30,144 - __main__ - INFO - ✅ Application démarrée avec succès
+2025-11-22 21:11:30,145 - __main__ - INFO - ============================================================
+2025-11-22 21:15:18,363 - __main__ - INFO - 👋 Application fermée
+2025-11-22 21:21:11,407 - __main__ - INFO - ============================================================
+2025-11-22 21:21:11,407 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-11-22 21:21:11,407 - __main__ - INFO - ============================================================
+2025-11-22 21:21:11,407 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-11-22 21:21:11,453 - __main__ - INFO - ✅ Toutes les dépendances sont installées
+2025-11-22 21:21:11,453 - __main__ - INFO - 🔍 Vérification de la configuration...
+2025-11-22 21:21:11,454 - __main__ - INFO - ✅ Configuration OK
+2025-11-22 21:21:11,454 - __main__ - INFO - 🔍 Test de connexion à la base de données...
+2025-11-22 21:21:11,457 - database - INFO - ✅ Connexion à la base de données établie
+2025-11-22 21:21:11,457 - __main__ - INFO - ✅ Connecté à : COMPTA
+2025-11-22 21:21:11,457 - __main__ - INFO - ✅ Version MySQL : 10.11.13-MariaDB-0ubuntu0.24.04.1
+2025-11-22 21:21:11,457 - database - INFO - 🔌 Connexion fermée
+2025-11-22 21:21:11,457 - __main__ - INFO - 🚀 Lancement de l'interface graphique...
+2025-11-22 21:21:11,589 - database - INFO - ✅ Connexion à la base de données établie
+2025-11-22 21:21:11,590 - gui_main - INFO - ✅ Application démarrée
+2025-11-22 21:21:11,634 - __main__ - INFO - ✅ Application démarrée avec succès
+2025-11-22 21:21:11,634 - __main__ - INFO - ============================================================
+2025-11-22 21:21:44,650 - __main__ - INFO - 👋 Application fermée
+2025-11-22 21:30:54,590 - __main__ - INFO - ============================================================
+2025-11-22 21:30:54,590 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-11-22 21:30:54,590 - __main__ - INFO - ============================================================
+2025-11-22 21:30:54,590 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-11-22 21:30:54,636 - __main__ - INFO - ✅ Toutes les dépendances sont installées
+2025-11-22 21:30:54,636 - __main__ - INFO - 🔍 Vérification de la configuration...
+2025-11-22 21:30:54,636 - __main__ - INFO - ✅ Configuration OK
+2025-11-22 21:30:54,636 - __main__ - INFO - 🔍 Test de connexion à la base de données...
+2025-11-22 21:30:54,639 - database - INFO - ✅ Connexion à la base de données établie
+2025-11-22 21:30:54,639 - __main__ - INFO - ✅ Connecté à : COMPTA
+2025-11-22 21:30:54,639 - __main__ - INFO - ✅ Version MySQL : 10.11.13-MariaDB-0ubuntu0.24.04.1
+2025-11-22 21:30:54,640 - database - INFO - 🔌 Connexion fermée
+2025-11-22 21:30:54,640 - __main__ - INFO - 🚀 Lancement de l'interface graphique...
+2025-11-22 21:30:54,771 - database - INFO - ✅ Connexion à la base de données établie
+2025-11-22 21:30:54,771 - gui_main - INFO - ✅ Application démarrée
+2025-11-22 21:30:54,813 - __main__ - INFO - ✅ Application démarrée avec succès
+2025-11-22 21:30:54,813 - __main__ - INFO - ============================================================
+2025-11-22 21:32:17,675 - __main__ - INFO - 👋 Application fermée
+2025-11-22 21:43:06,171 - __main__ - INFO - ============================================================
+2025-11-22 21:43:06,171 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-11-22 21:43:06,171 - __main__ - INFO - ============================================================
+2025-11-22 21:43:06,171 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-11-22 21:43:06,216 - __main__ - INFO - ✅ Toutes les dépendances sont installées
+2025-11-22 21:43:06,216 - __main__ - INFO - 🔍 Vérification de la configuration...
+2025-11-22 21:43:06,216 - __main__ - INFO - ✅ Configuration OK
+2025-11-22 21:43:06,216 - __main__ - INFO - 🔍 Test de connexion à la base de données...
+2025-11-22 21:43:06,219 - database - INFO - ✅ Connexion à la base de données établie
+2025-11-22 21:43:06,219 - __main__ - INFO - ✅ Connecté à : COMPTA
+2025-11-22 21:43:06,219 - __main__ - INFO - ✅ Version MySQL : 10.11.13-MariaDB-0ubuntu0.24.04.1
+2025-11-22 21:43:06,219 - database - INFO - 🔌 Connexion fermée
+2025-11-22 21:43:06,220 - __main__ - INFO - 🚀 Lancement de l'interface graphique...
+2025-11-22 21:43:06,353 - database - INFO - ✅ Connexion à la base de données établie
+2025-11-22 21:43:06,353 - gui_main - INFO - ✅ Application démarrée
+2025-11-22 21:43:06,400 - __main__ - INFO - ✅ Application démarrée avec succès
+2025-11-22 21:43:06,400 - __main__ - INFO - ============================================================
+2025-11-22 21:44:18,414 - dao - INFO - ✅ Balance recalculée
+2025-11-22 21:45:44,480 - __main__ - INFO - 👋 Application fermée
+2025-11-22 22:01:08,603 - __main__ - INFO - ============================================================
+2025-11-22 22:01:08,603 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-11-22 22:01:08,630 - __main__ - INFO - ============================================================
+2025-11-22 22:01:08,630 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-11-22 22:01:08,675 - __main__ - INFO - ✅ Toutes les dépendances sont installées
+2025-11-22 22:01:08,676 - __main__ - INFO - 🔍 Vérification de la configuration...
+2025-11-22 22:01:08,676 - __main__ - INFO - ✅ Configuration OK
+2025-11-22 22:01:08,676 - __main__ - INFO - 🔍 Test de connexion à la base de données...
+2025-11-22 22:01:08,679 - database - INFO - ✅ Connexion à la base de données établie
+2025-11-22 22:01:08,679 - __main__ - INFO - ✅ Connecté à : COMPTA
+2025-11-22 22:01:08,679 - __main__ - INFO - ✅ Version MySQL : 10.11.13-MariaDB-0ubuntu0.24.04.1
+2025-11-22 22:01:08,679 - database - INFO - 🔌 Connexion fermée
+2025-11-22 22:01:08,679 - __main__ - INFO - 🚀 Lancement de l'interface graphique...
+2025-11-22 22:01:08,810 - database - INFO - ✅ Connexion à la base de données établie
+2025-11-22 22:01:08,810 - gui_main - INFO - ✅ Application démarrée
+2025-11-22 22:01:08,853 - __main__ - INFO - ✅ Application démarrée avec succès
+2025-11-22 22:01:08,853 - __main__ - INFO - ============================================================
+2025-11-22 22:02:03,899 - database - ERROR - ❌ Erreur lors de l'exécution : 1305 (42000): PROCEDURE COMPTA.Tester_Comptabilite_Avancee does not exist
+2025-11-22 22:02:03,900 - services - ERROR - ❌ Erreur test comptabilité : 1305 (42000): PROCEDURE COMPTA.Tester_Comptabilite_Avancee does not exist
+2025-11-22 22:18:47,021 - __main__ - INFO - 👋 Application fermée
+2025-11-22 22:30:41,243 - __main__ - INFO - ============================================================
+2025-11-22 22:30:41,243 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-11-22 22:30:41,243 - __main__ - INFO - ============================================================
+2025-11-22 22:30:41,243 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-11-22 22:30:41,290 - __main__ - INFO - ✅ Toutes les dépendances sont installées
+2025-11-22 22:30:41,290 - __main__ - INFO - 🔍 Vérification de la configuration...
+2025-11-22 22:30:41,291 - __main__ - INFO - ✅ Configuration OK
+2025-11-22 22:30:41,291 - __main__ - INFO - 🔍 Test de connexion à la base de données...
+2025-11-22 22:30:41,294 - database - INFO - ✅ Connexion à la base de données établie
+2025-11-22 22:30:41,294 - __main__ - INFO - ✅ Connecté à : COMPTA
+2025-11-22 22:30:41,294 - __main__ - INFO - ✅ Version MySQL : 10.11.13-MariaDB-0ubuntu0.24.04.1
+2025-11-22 22:30:41,294 - database - INFO - 🔌 Connexion fermée
+2025-11-22 22:30:41,294 - __main__ - INFO - 🚀 Lancement de l'interface graphique...
+2025-11-22 22:30:41,427 - database - INFO - ✅ Connexion à la base de données établie
+2025-11-22 22:30:41,427 - gui_main - INFO - ✅ Application démarrée
+2025-11-22 22:30:41,474 - __main__ - INFO - ✅ Application démarrée avec succès
+2025-11-22 22:30:41,474 - __main__ - INFO - ============================================================
+2025-11-22 22:36:58,854 - __main__ - INFO - 👋 Application fermée
+2025-11-22 22:37:06,880 - __main__ - INFO - ============================================================
+2025-11-22 22:37:06,880 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-11-22 22:37:06,880 - __main__ - INFO - ============================================================
+2025-11-22 22:37:06,880 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-11-22 22:37:06,927 - __main__ - INFO - ✅ Toutes les dépendances sont installées
+2025-11-22 22:37:06,927 - __main__ - INFO - 🔍 Vérification de la configuration...
+2025-11-22 22:37:06,928 - __main__ - INFO - ✅ Configuration OK
+2025-11-22 22:37:06,928 - __main__ - INFO - 🔍 Test de connexion à la base de données...
+2025-11-22 22:37:06,931 - database - INFO - ✅ Connexion à la base de données établie
+2025-11-22 22:37:06,931 - __main__ - INFO - ✅ Connecté à : COMPTA
+2025-11-22 22:37:06,931 - __main__ - INFO - ✅ Version MySQL : 10.11.13-MariaDB-0ubuntu0.24.04.1
+2025-11-22 22:37:06,931 - database - INFO - 🔌 Connexion fermée
+2025-11-22 22:37:06,931 - __main__ - INFO - 🚀 Lancement de l'interface graphique...
+2025-11-22 22:37:07,065 - database - INFO - ✅ Connexion à la base de données établie
+2025-11-22 22:37:07,065 - gui_main - INFO - ✅ Application démarrée
+2025-11-22 22:37:07,111 - __main__ - INFO - ✅ Application démarrée avec succès
+2025-11-22 22:37:07,111 - __main__ - INFO - ============================================================
+2025-11-22 22:47:02,392 - __main__ - INFO - 👋 Application fermée
+2025-11-22 22:47:06,834 - __main__ - INFO - ============================================================
+2025-11-22 22:47:06,834 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-11-22 22:47:06,835 - __main__ - INFO - ============================================================
+2025-11-22 22:47:06,835 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-11-22 22:47:06,880 - __main__ - INFO - ✅ Toutes les dépendances sont installées
+2025-11-22 22:47:06,880 - __main__ - INFO - 🔍 Vérification de la configuration...
+2025-11-22 22:47:06,881 - __main__ - INFO - ✅ Configuration OK
+2025-11-22 22:47:06,881 - __main__ - INFO - 🔍 Test de connexion à la base de données...
+2025-11-22 22:47:06,883 - database - INFO - ✅ Connexion à la base de données établie
+2025-11-22 22:47:06,884 - __main__ - INFO - ✅ Connecté à : COMPTA
+2025-11-22 22:47:06,884 - __main__ - INFO - ✅ Version MySQL : 10.11.13-MariaDB-0ubuntu0.24.04.1
+2025-11-22 22:47:06,884 - database - INFO - 🔌 Connexion fermée
+2025-11-22 22:47:06,884 - __main__ - INFO - 🚀 Lancement de l'interface graphique...
+2025-11-22 22:47:07,017 - database - INFO - ✅ Connexion à la base de données établie
+2025-11-22 22:47:07,017 - gui_main - INFO - ✅ Application démarrée
+2025-11-22 22:47:07,061 - __main__ - INFO - ✅ Application démarrée avec succès
+2025-11-22 22:47:07,061 - __main__ - INFO - ============================================================
+2025-11-22 22:57:58,046 - __main__ - INFO - 👋 Application fermée
+2025-11-22 22:58:07,154 - __main__ - INFO - ============================================================
+2025-11-22 22:58:07,154 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-11-22 22:58:07,154 - __main__ - INFO - ============================================================
+2025-11-22 22:58:07,154 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-11-22 22:58:07,204 - __main__ - INFO - ✅ Toutes les dépendances sont installées
+2025-11-22 22:58:07,204 - __main__ - INFO - 🔍 Vérification de la configuration...
+2025-11-22 22:58:07,204 - __main__ - INFO - ✅ Configuration OK
+2025-11-22 22:58:07,204 - __main__ - INFO - 🔍 Test de connexion à la base de données...
+2025-11-22 22:58:07,207 - database - INFO - ✅ Connexion à la base de données établie
+2025-11-22 22:58:07,208 - __main__ - INFO - ✅ Connecté à : COMPTA
+2025-11-22 22:58:07,208 - __main__ - INFO - ✅ Version MySQL : 10.11.13-MariaDB-0ubuntu0.24.04.1
+2025-11-22 22:58:07,208 - database - INFO - 🔌 Connexion fermée
+2025-11-22 22:58:07,208 - __main__ - INFO - 🚀 Lancement de l'interface graphique...
+2025-11-22 22:58:07,345 - database - INFO - ✅ Connexion à la base de données établie
+2025-11-22 22:58:07,345 - gui_main - INFO - ✅ Application démarrée
+2025-11-22 22:58:07,401 - __main__ - INFO - ✅ Application démarrée avec succès
+2025-11-22 22:58:07,402 - __main__ - INFO - ============================================================
+2025-11-22 22:58:12,314 - database - ERROR - ❌ Erreur lors de l'exécution : 1146 (42S02): Table 'COMPTA.LIGNES_ECRITURE' doesn't exist
+2025-11-22 22:58:40,475 - database - ERROR - ❌ Erreur lors de l'exécution : 1146 (42S02): Table 'COMPTA.LIGNES_ECRITURE' doesn't exist
+2025-11-22 23:01:55,531 - database - ERROR - ❌ Erreur lors de l'exécution : 1146 (42S02): Table 'COMPTA.LIGNES_ECRITURE' doesn't exist
+2025-11-22 23:02:09,402 - __main__ - INFO - 👋 Application fermée
+2025-11-22 23:02:19,712 - __main__ - INFO - ============================================================
+2025-11-22 23:02:19,712 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-11-22 23:02:19,712 - __main__ - INFO - ============================================================
+2025-11-22 23:02:19,712 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-11-22 23:02:19,758 - __main__ - INFO - ✅ Toutes les dépendances sont installées
+2025-11-22 23:02:19,758 - __main__ - INFO - 🔍 Vérification de la configuration...
+2025-11-22 23:02:19,759 - __main__ - INFO - ✅ Configuration OK
+2025-11-22 23:02:19,759 - __main__ - INFO - 🔍 Test de connexion à la base de données...
+2025-11-22 23:02:19,761 - database - INFO - ✅ Connexion à la base de données établie
+2025-11-22 23:02:19,762 - __main__ - INFO - ✅ Connecté à : COMPTA
+2025-11-22 23:02:19,762 - __main__ - INFO - ✅ Version MySQL : 10.11.13-MariaDB-0ubuntu0.24.04.1
+2025-11-22 23:02:19,762 - database - INFO - 🔌 Connexion fermée
+2025-11-22 23:02:19,762 - __main__ - INFO - 🚀 Lancement de l'interface graphique...
+2025-11-22 23:02:19,900 - database - INFO - ✅ Connexion à la base de données établie
+2025-11-22 23:02:19,900 - gui_main - INFO - ✅ Application démarrée
+2025-11-22 23:02:19,954 - __main__ - INFO - ✅ Application démarrée avec succès
+2025-11-22 23:02:19,954 - __main__ - INFO - ============================================================
+2025-11-22 23:03:56,904 - __main__ - INFO - 👋 Application fermée
+2025-11-22 23:06:01,589 - __main__ - INFO - ============================================================
+2025-11-22 23:06:01,589 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-11-22 23:06:01,589 - __main__ - INFO - ============================================================
+2025-11-22 23:06:01,589 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-11-22 23:06:01,635 - __main__ - INFO - ✅ Toutes les dépendances sont installées
+2025-11-22 23:06:01,635 - __main__ - INFO - 🔍 Vérification de la configuration...
+2025-11-22 23:06:01,636 - __main__ - INFO - ✅ Configuration OK
+2025-11-22 23:06:01,636 - __main__ - INFO - 🔍 Test de connexion à la base de données...
+2025-11-22 23:06:01,638 - database - INFO - ✅ Connexion à la base de données établie
+2025-11-22 23:06:01,639 - __main__ - INFO - ✅ Connecté à : COMPTA
+2025-11-22 23:06:01,639 - __main__ - INFO - ✅ Version MySQL : 10.11.13-MariaDB-0ubuntu0.24.04.1
+2025-11-22 23:06:01,639 - database - INFO - 🔌 Connexion fermée
+2025-11-22 23:06:01,639 - __main__ - INFO - 🚀 Lancement de l'interface graphique...
+2025-11-22 23:06:01,772 - database - INFO - ✅ Connexion à la base de données établie
+2025-11-22 23:06:01,772 - gui_main - INFO - ✅ Application démarrée
+2025-11-22 23:06:01,821 - __main__ - INFO - ✅ Application démarrée avec succès
+2025-11-22 23:06:01,821 - __main__ - INFO - ============================================================
+2025-11-22 23:08:34,966 - database - ERROR - ❌ Erreur lors de l'exécution : 1305 (42000): PROCEDURE COMPTA.Exporter_FEC_Exercice does not exist
+2025-11-22 23:08:34,966 - services - ERROR - ❌ Erreur export FEC : 1305 (42000): PROCEDURE COMPTA.Exporter_FEC_Exercice does not exist
+2025-11-22 23:09:56,863 - database - ERROR - ❌ Erreur lors de l'exécution : 1305 (42000): PROCEDURE COMPTA.Tester_Comptabilite_Avancee does not exist
+2025-11-22 23:09:56,863 - services - ERROR - ❌ Erreur test comptabilité : 1305 (42000): PROCEDURE COMPTA.Tester_Comptabilite_Avancee does not exist
+2025-11-23 00:08:49,923 - __main__ - INFO - 👋 Application fermée
+2025-11-23 01:32:27,870 - __main__ - INFO - ============================================================
+2025-11-23 01:32:27,872 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-11-23 01:32:27,872 - __main__ - INFO - ============================================================
+2025-11-23 01:32:27,872 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-11-23 01:32:27,934 - __main__ - INFO - ✅ Toutes les dépendances sont installées
+2025-11-23 01:32:27,934 - __main__ - INFO - 🔍 Vérification de la configuration...
+2025-11-23 01:32:27,935 - __main__ - INFO - ✅ Configuration OK
+2025-11-23 01:32:27,935 - __main__ - INFO - 🔍 Test de connexion à la base de données...
+2025-11-23 01:32:27,954 - database - INFO - ✅ Pool de connexions initialisé (taille: 5)
+2025-11-23 01:32:27,955 - __main__ - INFO - ✅ Connecté à : COMPTA
+2025-11-23 01:32:27,955 - __main__ - INFO - ✅ Version MySQL : 10.11.13-MariaDB-0ubuntu0.24.04.1
+2025-11-23 01:32:27,955 - database - INFO - 🔌 Connexion fermée
+2025-11-23 01:32:27,955 - __main__ - INFO - 🚀 Lancement de l'interface graphique...
+2025-11-23 01:32:28,136 - gui_main - INFO - ✅ Application démarrée
+2025-11-23 01:32:28,222 - __main__ - INFO - ✅ Application démarrée avec succès
+2025-11-23 01:32:28,222 - __main__ - INFO - ============================================================
+2025-11-23 01:33:06,348 - database - INFO - 🔌 Connexion fermée
+2025-11-23 01:33:06,376 - __main__ - INFO - 👋 Application fermée
+2025-11-23 01:35:33,052 - __main__ - INFO - ============================================================
+2025-11-23 01:35:33,052 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-11-23 01:35:33,052 - __main__ - INFO - ============================================================
+2025-11-23 01:35:33,052 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-11-23 01:35:33,098 - __main__ - INFO - ✅ Toutes les dépendances sont installées
+2025-11-23 01:35:33,099 - __main__ - INFO - 🔍 Vérification de la configuration...
+2025-11-23 01:35:33,099 - __main__ - INFO - ✅ Configuration OK
+2025-11-23 01:35:33,099 - __main__ - INFO - 🔍 Test de connexion à la base de données...
+2025-11-23 01:35:33,104 - database - INFO - ✅ Pool de connexions initialisé (taille: 5)
+2025-11-23 01:35:33,104 - __main__ - INFO - ✅ Connecté à : COMPTA
+2025-11-23 01:35:33,105 - __main__ - INFO - ✅ Version MySQL : 10.11.13-MariaDB-0ubuntu0.24.04.1
+2025-11-23 01:35:33,105 - database - INFO - 🔌 Connexion fermée
+2025-11-23 01:35:33,105 - __main__ - INFO - 🚀 Lancement de l'interface graphique...
+2025-11-23 01:35:33,250 - gui_main - INFO - ✅ Application démarrée
+2025-11-23 01:35:33,307 - __main__ - INFO - ✅ Application démarrée avec succès
+2025-11-23 01:35:33,307 - __main__ - INFO - ============================================================
+2025-11-23 01:37:03,106 - __main__ - INFO - 👋 Application fermée
+2025-11-23 15:32:19,671 - __main__ - INFO - ============================================================
+2025-11-23 15:32:19,673 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-11-23 15:32:19,673 - __main__ - INFO - ============================================================
+2025-11-23 15:32:19,673 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-11-23 15:32:19,747 - __main__ - INFO - ✅ Toutes les dépendances sont installées
+2025-11-23 15:32:19,747 - __main__ - INFO - 🔍 Vérification de la configuration...
+2025-11-23 15:32:19,748 - __main__ - INFO - ✅ Configuration OK
+2025-11-23 15:32:19,748 - __main__ - INFO - 🔍 Test de connexion à la base de données...
+2025-11-23 15:32:19,793 - src.infrastructure.persistence.database - INFO - ✅ Pool de connexions initialisé (taille: 5)
+2025-11-23 15:32:19,797 - __main__ - INFO - ✅ Connecté à : COMPTA
+2025-11-23 15:32:19,797 - __main__ - INFO - ✅ Version MySQL : 10.11.13-MariaDB-0ubuntu0.24.04.1
+2025-11-23 15:32:19,797 - src.infrastructure.persistence.database - INFO - 🔌 Connexion fermée
+2025-11-23 15:32:19,797 - __main__ - INFO - 🚀 Lancement de l'interface graphique...
+2025-11-23 15:32:19,797 - __main__ - ERROR - ❌ Erreur lors du démarrage de l'application :
+
+No module named 'gui_main'
+Traceback (most recent call last):
+  File "/home/bracoul/Bureau/comptabilite/compta/comptabilite-python/main.py", line 154, in main
+    from gui_main import ComptaApp
+ModuleNotFoundError: No module named 'gui_main'
+2025-11-23 15:36:58,979 - __main__ - INFO - ============================================================
+2025-11-23 15:36:58,980 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-11-23 15:36:58,980 - __main__ - INFO - ============================================================
+2025-11-23 15:36:58,980 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-11-23 15:36:59,023 - __main__ - INFO - ✅ Toutes les dépendances sont installées
+2025-11-23 15:36:59,024 - __main__ - INFO - 🔍 Vérification de la configuration...
+2025-11-23 15:36:59,024 - __main__ - INFO - ✅ Configuration OK
+2025-11-23 15:36:59,024 - __main__ - INFO - 🔍 Test de connexion à la base de données...
+2025-11-23 15:36:59,038 - src.infrastructure.persistence.database - INFO - ✅ Pool de connexions initialisé (taille: 5)
+2025-11-23 15:36:59,038 - __main__ - INFO - ✅ Connecté à : COMPTA
+2025-11-23 15:36:59,038 - __main__ - INFO - ✅ Version MySQL : 10.11.13-MariaDB-0ubuntu0.24.04.1
+2025-11-23 15:36:59,038 - src.infrastructure.persistence.database - INFO - 🔌 Connexion fermée
+2025-11-23 15:36:59,038 - __main__ - INFO - 🚀 Lancement de l'interface graphique...
+2025-11-23 15:36:59,184 - src.presentation.gui_main - INFO - ✅ Application démarrée
+2025-11-23 15:36:59,274 - __main__ - INFO - ✅ Application démarrée avec succès
+2025-11-23 15:36:59,274 - __main__ - INFO - ============================================================
+2025-11-23 15:43:22,498 - __main__ - INFO - ============================================================
+2025-11-23 15:43:22,499 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-11-23 15:43:22,499 - __main__ - INFO - ============================================================
+2025-11-23 15:43:22,499 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-11-23 15:43:22,500 - __main__ - ERROR - ❌ Dépendances manquantes :
+
+  - mysql-connector-python
+  - python-dotenv
+
+Installation :
+  pip install -r requirements.txt
+2025-11-23 15:44:30,979 - __main__ - INFO - ============================================================
+2025-11-23 15:44:30,979 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-11-23 15:44:30,979 - __main__ - INFO - ============================================================
+2025-11-23 15:44:30,979 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-11-23 15:44:31,056 - __main__ - INFO - ✅ Toutes les dépendances sont installées
+2025-11-23 15:44:31,056 - __main__ - INFO - 🔍 Vérification de la configuration...
+2025-11-23 15:44:31,057 - __main__ - INFO - ✅ Configuration OK
+2025-11-23 15:44:31,058 - __main__ - INFO - 🔍 Test de connexion à la base de données...
+2025-11-23 15:44:31,077 - src.infrastructure.persistence.database - INFO - ✅ Pool de connexions initialisé (taille: 5)
+2025-11-23 15:44:31,078 - __main__ - INFO - ✅ Connecté à : COMPTA
+2025-11-23 15:44:31,079 - __main__ - INFO - ✅ Version MySQL : 10.11.13-MariaDB-0ubuntu0.24.04.1
+2025-11-23 15:44:31,079 - src.infrastructure.persistence.database - INFO - 🔌 Connexion fermée
+2025-11-23 15:44:31,079 - __main__ - INFO - 🚀 Lancement de l'interface graphique...
+2025-11-23 15:44:31,213 - src.presentation.gui_main - INFO - ✅ Application démarrée
+2025-11-23 15:44:31,282 - __main__ - INFO - ✅ Application démarrée avec succès
+2025-11-23 15:44:31,282 - __main__ - INFO - ============================================================
+2025-11-23 15:52:56,289 - __main__ - INFO - ============================================================
+2025-11-23 15:52:56,289 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-11-23 15:52:56,289 - __main__ - INFO - ============================================================
+2025-11-23 15:52:56,289 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-11-23 15:52:56,367 - __main__ - INFO - ✅ Toutes les dépendances sont installées
+2025-11-23 15:52:56,367 - __main__ - INFO - 🔍 Vérification de la configuration...
+2025-11-23 15:52:56,368 - __main__ - INFO - ✅ Configuration OK
+2025-11-23 15:52:56,368 - __main__ - INFO - 🔍 Test de connexion à la base de données...
+2025-11-23 15:52:56,388 - src.infrastructure.persistence.database - INFO - ✅ Pool de connexions initialisé (taille: 5)
+2025-11-23 15:52:56,388 - __main__ - INFO - ✅ Connecté à : COMPTA
+2025-11-23 15:52:56,388 - __main__ - INFO - ✅ Version MySQL : 10.11.13-MariaDB-0ubuntu0.24.04.1
+2025-11-23 15:52:56,389 - src.infrastructure.persistence.database - INFO - 🔌 Connexion fermée
+2025-11-23 15:52:56,389 - __main__ - INFO - 🚀 Lancement de l'interface graphique...
+2025-11-23 15:52:56,521 - src.presentation.gui_main - INFO - ✅ Application démarrée
+2025-11-23 15:52:56,580 - __main__ - INFO - ✅ Application démarrée avec succès
+2025-11-23 15:52:56,580 - __main__ - INFO - ============================================================
+2025-11-23 15:54:08,073 - src.infrastructure.persistence.database - ERROR - ❌ Erreur lors de l'exécution : 1054 (42S22): Unknown column 'EcritureId' in 'SELECT'
+2025-11-23 15:54:08,073 - src.application.services - ERROR - ❌ Erreur test comptabilité : Erreur d'exécution SQL: 1054 (42S22): Unknown column 'EcritureId' in 'SELECT'
+2025-11-23 15:54:34,407 - __main__ - INFO - 👋 Application fermée
+2025-11-23 16:00:41,403 - __main__ - INFO - ============================================================
+2025-11-23 16:00:41,403 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-11-23 16:00:41,403 - __main__ - INFO - ============================================================
+2025-11-23 16:00:41,403 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-11-23 16:00:41,468 - __main__ - INFO - ✅ Toutes les dépendances sont installées
+2025-11-23 16:00:41,468 - __main__ - INFO - 🔍 Vérification de la configuration...
+2025-11-23 16:00:41,469 - __main__ - INFO - ✅ Configuration OK
+2025-11-23 16:00:41,469 - __main__ - INFO - 🔍 Test de connexion à la base de données...
+2025-11-23 16:00:41,493 - src.infrastructure.persistence.database - INFO - ✅ Pool de connexions initialisé (taille: 5)
+2025-11-23 16:00:41,494 - __main__ - INFO - ✅ Connecté à : COMPTA
+2025-11-23 16:00:41,494 - __main__ - INFO - ✅ Version MySQL : 10.11.13-MariaDB-0ubuntu0.24.04.1
+2025-11-23 16:00:41,495 - src.infrastructure.persistence.database - INFO - 🔌 Connexion fermée
+2025-11-23 16:00:41,495 - __main__ - INFO - 🚀 Lancement de l'interface graphique...
+2025-11-23 16:00:41,690 - src.presentation.gui_main - INFO - ✅ Application démarrée
+2025-11-23 16:00:41,871 - __main__ - INFO - ✅ Application démarrée avec succès
+2025-11-23 16:00:41,871 - __main__ - INFO - ============================================================
+2025-11-23 16:01:57,519 - __main__ - INFO - ============================================================
+2025-11-23 16:01:57,519 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-11-23 16:01:57,519 - __main__ - INFO - ============================================================
+2025-11-23 16:01:57,519 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-11-23 16:01:57,585 - __main__ - INFO - ✅ Toutes les dépendances sont installées
+2025-11-23 16:01:57,585 - __main__ - INFO - 🔍 Vérification de la configuration...
+2025-11-23 16:01:57,586 - __main__ - INFO - ✅ Configuration OK
+2025-11-23 16:01:57,586 - __main__ - INFO - 🔍 Test de connexion à la base de données...
+2025-11-23 16:01:57,630 - src.infrastructure.persistence.database - INFO - ✅ Pool de connexions initialisé (taille: 5)
+2025-11-23 16:01:57,630 - __main__ - INFO - ✅ Connecté à : COMPTA
+2025-11-23 16:01:57,630 - __main__ - INFO - ✅ Version MySQL : 10.11.13-MariaDB-0ubuntu0.24.04.1
+2025-11-23 16:01:57,631 - src.infrastructure.persistence.database - INFO - 🔌 Connexion fermée
+2025-11-23 16:01:57,631 - __main__ - INFO - 🚀 Lancement de l'interface graphique...
+2025-11-23 16:01:57,787 - src.presentation.gui_main - INFO - ✅ Application démarrée
+2025-11-23 16:01:57,899 - __main__ - INFO - ✅ Application démarrée avec succès
+2025-11-23 16:01:57,899 - __main__ - INFO - ============================================================
+2025-11-23 16:03:12,672 - __main__ - INFO - 👋 Application fermée
+2025-11-23 16:26:13,667 - __main__ - INFO - ============================================================
+2025-11-23 16:26:13,667 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-11-23 16:26:13,667 - __main__ - INFO - ============================================================
+2025-11-23 16:26:13,667 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-11-23 16:26:13,716 - __main__ - INFO - ✅ Toutes les dépendances sont installées
+2025-11-23 16:26:13,716 - __main__ - INFO - 🔍 Vérification de la configuration...
+2025-11-23 16:26:13,717 - __main__ - INFO - ✅ Configuration OK
+2025-11-23 16:26:13,717 - __main__ - INFO - 🔍 Test de connexion à la base de données...
+2025-11-23 16:26:13,748 - src.infrastructure.persistence.database - INFO - ✅ Pool de connexions initialisé (taille: 5)
+2025-11-23 16:26:13,751 - __main__ - INFO - ✅ Connecté à : COMPTA
+2025-11-23 16:26:13,751 - __main__ - INFO - ✅ Version MySQL : 10.11.13-MariaDB-0ubuntu0.24.04.1
+2025-11-23 16:26:13,751 - src.infrastructure.persistence.database - INFO - 🔌 Connexion fermée
+2025-11-23 16:26:13,752 - __main__ - INFO - 🚀 Lancement de l'interface graphique...
+2025-11-23 16:26:13,895 - src.presentation.gui_main - INFO - ✅ Application démarrée
+2025-11-23 16:26:13,971 - __main__ - INFO - ✅ Application démarrée avec succès
+2025-11-23 16:26:13,971 - __main__ - INFO - ============================================================
+2025-11-23 16:35:24,724 - __main__ - INFO - 👋 Application fermée
+2025-11-23 16:38:18,390 - __main__ - INFO - ============================================================
+2025-11-23 16:38:18,391 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-11-23 16:38:18,391 - __main__ - INFO - ============================================================
+2025-11-23 16:38:18,391 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-11-23 16:38:18,444 - __main__ - INFO - ✅ Toutes les dépendances sont installées
+2025-11-23 16:38:18,444 - __main__ - INFO - 🔍 Vérification de la configuration...
+2025-11-23 16:38:18,445 - __main__ - INFO - ✅ Configuration OK
+2025-11-23 16:38:18,445 - __main__ - INFO - 🔍 Test de connexion à la base de données...
+2025-11-23 16:38:18,458 - src.infrastructure.persistence.database - INFO - ✅ Pool de connexions initialisé (taille: 5)
+2025-11-23 16:38:18,459 - __main__ - INFO - ✅ Connecté à : COMPTA
+2025-11-23 16:38:18,459 - __main__ - INFO - ✅ Version MySQL : 10.11.13-MariaDB-0ubuntu0.24.04.1
+2025-11-23 16:38:18,459 - src.infrastructure.persistence.database - INFO - 🔌 Connexion fermée
+2025-11-23 16:38:18,459 - __main__ - INFO - 🚀 Lancement de l'interface graphique...
+2025-11-23 16:38:18,588 - src.presentation.gui_main - INFO - ✅ Application démarrée
+2025-11-23 16:38:18,654 - __main__ - INFO - ✅ Application démarrée avec succès
+2025-11-23 16:38:18,654 - __main__ - INFO - ============================================================
+2025-11-23 17:25:12,653 - __main__ - INFO - 👋 Application fermée
+2025-11-23 17:25:16,485 - __main__ - INFO - ============================================================
+2025-11-23 17:25:16,485 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-11-23 17:25:16,485 - __main__ - INFO - ============================================================
+2025-11-23 17:25:16,485 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-11-23 17:25:16,547 - __main__ - INFO - ✅ Toutes les dépendances sont installées
+2025-11-23 17:25:16,547 - __main__ - INFO - 🔍 Vérification de la configuration...
+2025-11-23 17:25:16,547 - __main__ - INFO - ✅ Configuration OK
+2025-11-23 17:25:16,547 - __main__ - INFO - 🔍 Test de connexion à la base de données...
+2025-11-23 17:25:16,566 - src.infrastructure.persistence.database - INFO - ✅ Pool de connexions initialisé (taille: 5)
+2025-11-23 17:25:16,567 - __main__ - INFO - ✅ Connecté à : COMPTA
+2025-11-23 17:25:16,567 - __main__ - INFO - ✅ Version MySQL : 10.11.13-MariaDB-0ubuntu0.24.04.1
+2025-11-23 17:25:16,567 - src.infrastructure.persistence.database - INFO - 🔌 Connexion fermée
+2025-11-23 17:25:16,567 - __main__ - INFO - 🚀 Lancement de l'interface graphique...
+2025-11-23 17:25:16,717 - src.presentation.gui_main - INFO - ✅ Application démarrée
+2025-11-23 17:25:16,783 - __main__ - INFO - ✅ Application démarrée avec succès
+2025-11-23 17:25:16,784 - __main__ - INFO - ============================================================
+2025-11-23 17:30:13,448 - __main__ - INFO - 👋 Application fermée
+2025-11-23 17:31:52,486 - __main__ - INFO - ============================================================
+2025-11-23 17:31:52,486 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-11-23 17:31:52,486 - __main__ - INFO - ============================================================
+2025-11-23 17:31:52,486 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-11-23 17:31:52,540 - __main__ - INFO - ✅ Toutes les dépendances sont installées
+2025-11-23 17:31:52,540 - __main__ - INFO - 🔍 Vérification de la configuration...
+2025-11-23 17:31:52,540 - __main__ - INFO - ✅ Configuration OK
+2025-11-23 17:31:52,541 - __main__ - INFO - 🔍 Test de connexion à la base de données...
+2025-11-23 17:31:52,555 - src.infrastructure.persistence.database - INFO - ✅ Pool de connexions initialisé (taille: 5)
+2025-11-23 17:31:52,555 - __main__ - INFO - ✅ Connecté à : COMPTA
+2025-11-23 17:31:52,555 - __main__ - INFO - ✅ Version MySQL : 10.11.13-MariaDB-0ubuntu0.24.04.1
+2025-11-23 17:31:52,556 - src.infrastructure.persistence.database - INFO - 🔌 Connexion fermée
+2025-11-23 17:31:52,556 - __main__ - INFO - 🚀 Lancement de l'interface graphique...
+2025-11-23 17:31:52,693 - src.presentation.gui_main - INFO - ✅ Application démarrée
+2025-11-23 17:31:52,750 - __main__ - INFO - ✅ Application démarrée avec succès
+2025-11-23 17:31:52,750 - __main__ - INFO - ============================================================
+2025-11-23 17:57:07,806 - __main__ - INFO - 👋 Application fermée
+2025-11-23 17:57:12,313 - __main__ - INFO - ============================================================
+2025-11-23 17:57:12,314 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-11-23 17:57:12,314 - __main__ - INFO - ============================================================
+2025-11-23 17:57:12,314 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-11-23 17:57:12,367 - __main__ - INFO - ✅ Toutes les dépendances sont installées
+2025-11-23 17:57:12,367 - __main__ - INFO - 🔍 Vérification de la configuration...
+2025-11-23 17:57:12,368 - __main__ - INFO - ✅ Configuration OK
+2025-11-23 17:57:12,368 - __main__ - INFO - 🔍 Test de connexion à la base de données...
+2025-11-23 17:57:12,390 - src.infrastructure.persistence.database - INFO - ✅ Pool de connexions initialisé (taille: 5)
+2025-11-23 17:57:12,390 - __main__ - INFO - ✅ Connecté à : COMPTA
+2025-11-23 17:57:12,390 - __main__ - INFO - ✅ Version MySQL : 10.11.13-MariaDB-0ubuntu0.24.04.1
+2025-11-23 17:57:12,390 - src.infrastructure.persistence.database - INFO - 🔌 Connexion fermée
+2025-11-23 17:57:12,390 - __main__ - INFO - 🚀 Lancement de l'interface graphique...
+2025-11-23 17:57:12,534 - src.presentation.gui_main - INFO - ✅ Application démarrée
+2025-11-23 17:57:12,601 - __main__ - INFO - ✅ Application démarrée avec succès
+2025-11-23 17:57:12,601 - __main__ - INFO - ============================================================
+2025-11-23 17:58:57,494 - __main__ - INFO - 👋 Application fermée
+2025-11-23 18:07:47,258 - __main__ - INFO - ============================================================
+2025-11-23 18:07:47,258 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-11-23 18:07:47,258 - __main__ - INFO - ============================================================
+2025-11-23 18:07:47,258 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-11-23 18:07:47,304 - __main__ - INFO - ✅ Toutes les dépendances sont installées
+2025-11-23 18:07:47,304 - __main__ - INFO - 🔍 Vérification de la configuration...
+2025-11-23 18:07:47,305 - __main__ - INFO - ✅ Configuration OK
+2025-11-23 18:07:47,305 - __main__ - INFO - 🔍 Test de connexion à la base de données...
+2025-11-23 18:07:47,318 - src.infrastructure.persistence.database - INFO - ✅ Pool de connexions initialisé (taille: 5)
+2025-11-23 18:07:47,319 - __main__ - INFO - ✅ Connecté à : COMPTA
+2025-11-23 18:07:47,319 - __main__ - INFO - ✅ Version MySQL : 10.11.13-MariaDB-0ubuntu0.24.04.1
+2025-11-23 18:07:47,319 - src.infrastructure.persistence.database - INFO - 🔌 Connexion fermée
+2025-11-23 18:07:47,319 - __main__ - INFO - 🚀 Lancement de l'interface graphique...
+2025-11-23 18:07:47,448 - src.presentation.gui_main - INFO - ✅ Application démarrée
+2025-11-23 18:07:47,494 - __main__ - INFO - ✅ Application démarrée avec succès
+2025-11-23 18:07:47,494 - __main__ - INFO - ============================================================
+2025-11-23 18:42:09,489 - __main__ - INFO - 👋 Application fermée
+2025-11-23 18:42:13,050 - __main__ - INFO - ============================================================
+2025-11-23 18:42:13,051 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-11-23 18:42:13,051 - __main__ - INFO - ============================================================
+2025-11-23 18:42:13,051 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-11-23 18:42:13,105 - __main__ - INFO - ✅ Toutes les dépendances sont installées
+2025-11-23 18:42:13,105 - __main__ - INFO - 🔍 Vérification de la configuration...
+2025-11-23 18:42:13,106 - __main__ - INFO - ✅ Configuration OK
+2025-11-23 18:42:13,106 - __main__ - INFO - 🔍 Test de connexion à la base de données...
+2025-11-23 18:42:13,129 - src.infrastructure.persistence.database - INFO - ✅ Pool de connexions initialisé (taille: 5)
+2025-11-23 18:42:13,129 - __main__ - INFO - ✅ Connecté à : COMPTA
+2025-11-23 18:42:13,129 - __main__ - INFO - ✅ Version MySQL : 10.11.13-MariaDB-0ubuntu0.24.04.1
+2025-11-23 18:42:13,130 - src.infrastructure.persistence.database - INFO - 🔌 Connexion fermée
+2025-11-23 18:42:13,130 - __main__ - INFO - 🚀 Lancement de l'interface graphique...
+2025-11-23 18:42:13,280 - src.presentation.gui_main - INFO - ✅ Application démarrée
+2025-11-23 18:42:13,351 - __main__ - INFO - ✅ Application démarrée avec succès
+2025-11-23 18:42:13,351 - __main__ - INFO - ============================================================
+2025-11-23 19:05:50,963 - __main__ - INFO - 👋 Application fermée
+2025-11-23 19:34:09,348 - __main__ - INFO - ============================================================
+2025-11-23 19:34:09,348 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-11-23 19:34:09,348 - __main__ - INFO - ============================================================
+2025-11-23 19:34:09,348 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-11-23 19:34:09,408 - __main__ - INFO - ✅ Toutes les dépendances sont installées
+2025-11-23 19:34:09,408 - __main__ - INFO - 🔍 Vérification de la configuration...
+2025-11-23 19:34:09,408 - __main__ - INFO - ✅ Configuration OK
+2025-11-23 19:34:09,408 - __main__ - INFO - 🔍 Test de connexion à la base de données...
+2025-11-23 19:34:09,444 - src.infrastructure.persistence.database - INFO - ✅ Pool de connexions initialisé (taille: 5)
+2025-11-23 19:34:09,447 - __main__ - INFO - ✅ Connecté à : COMPTA
+2025-11-23 19:34:09,447 - __main__ - INFO - ✅ Version MySQL : 10.11.13-MariaDB-0ubuntu0.24.04.1
+2025-11-23 19:34:09,448 - src.infrastructure.persistence.database - INFO - 🔌 Connexion fermée
+2025-11-23 19:34:09,448 - __main__ - INFO - 🚀 Lancement de l'interface graphique...
+2025-11-23 19:34:09,613 - src.presentation.gui_main - INFO - ✅ Application démarrée
+2025-11-23 19:34:09,697 - __main__ - INFO - ✅ Application démarrée avec succès
+2025-11-23 19:34:09,697 - __main__ - INFO - ============================================================
+2025-11-23 19:34:24,164 - src.infrastructure.persistence.database - ERROR - ❌ Erreur lors de l'exécution : 1054 (42S22): Unknown column 'EcritureId' in 'SELECT'
+2025-11-23 19:34:24,165 - src.application.services - ERROR - ❌ Erreur test comptabilité : Erreur d'exécution SQL: 1054 (42S22): Unknown column 'EcritureId' in 'SELECT'
+2025-11-23 19:34:37,468 - src.infrastructure.persistence.database - ERROR - ❌ Erreur lors de l'exécution : 1054 (42S22): Unknown column 'EcritureId' in 'SELECT'
+2025-11-23 19:34:37,468 - src.application.services - ERROR - ❌ Erreur test comptabilité : Erreur d'exécution SQL: 1054 (42S22): Unknown column 'EcritureId' in 'SELECT'
+2025-11-23 19:34:54,145 - src.infrastructure.persistence.dao - INFO - ✅ Balance recalculée
+2025-11-23 19:35:13,050 - __main__ - INFO - 👋 Application fermée
+2025-11-23 19:40:30,419 - __main__ - INFO - ============================================================
+2025-11-23 19:40:30,420 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-11-23 19:40:30,420 - __main__ - INFO - ============================================================
+2025-11-23 19:40:30,420 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-11-23 19:40:30,470 - __main__ - INFO - ✅ Toutes les dépendances sont installées
+2025-11-23 19:40:30,470 - __main__ - INFO - 🔍 Vérification de la configuration...
+2025-11-23 19:40:30,471 - __main__ - INFO - ✅ Configuration OK
+2025-11-23 19:40:30,471 - __main__ - INFO - 🔍 Test de connexion à la base de données...
+2025-11-23 19:40:30,490 - src.infrastructure.persistence.database - INFO - ✅ Pool de connexions initialisé (taille: 5)
+2025-11-23 19:40:30,491 - __main__ - INFO - ✅ Connecté à : COMPTA
+2025-11-23 19:40:30,491 - __main__ - INFO - ✅ Version MySQL : 10.11.13-MariaDB-0ubuntu0.24.04.1
+2025-11-23 19:40:30,491 - src.infrastructure.persistence.database - INFO - 🔌 Connexion fermée
+2025-11-23 19:40:30,491 - __main__ - INFO - 🚀 Lancement de l'interface graphique...
+2025-11-23 19:40:30,635 - src.presentation.gui_main - INFO - ✅ Application démarrée
+2025-11-23 19:40:30,692 - __main__ - INFO - ✅ Application démarrée avec succès
+2025-11-23 19:40:30,693 - __main__ - INFO - ============================================================
+2025-11-23 19:40:37,954 - src.infrastructure.persistence.database - ERROR - ❌ Erreur lors de l'exécution : 1054 (42S22): Unknown column 'EcritureId' in 'SELECT'
+2025-11-23 19:40:37,955 - src.application.services - ERROR - ❌ Erreur test comptabilité : Erreur d'exécution SQL: 1054 (42S22): Unknown column 'EcritureId' in 'SELECT'
+2025-11-23 19:41:03,982 - src.infrastructure.persistence.database - ERROR - ❌ Erreur lors de l'exécution : 1054 (42S22): Unknown column 'EcritureId' in 'SELECT'
+2025-11-23 19:41:03,982 - src.application.services - ERROR - ❌ Erreur test comptabilité : Erreur d'exécution SQL: 1054 (42S22): Unknown column 'EcritureId' in 'SELECT'
+2025-11-23 19:41:19,132 - src.infrastructure.persistence.dao - INFO - ✅ Balance recalculée
+2025-11-23 19:44:16,547 - src.infrastructure.persistence.database - ERROR - ❌ Erreur lors de l'exécution : 1054 (42S22): Unknown column 'EcritureId' in 'SELECT'
+2025-11-23 19:44:16,547 - src.application.services - ERROR - ❌ Erreur test comptabilité : Erreur d'exécution SQL: 1054 (42S22): Unknown column 'EcritureId' in 'SELECT'
+2025-11-23 19:44:23,967 - __main__ - INFO - 👋 Application fermée
+2025-11-23 19:44:58,524 - __main__ - INFO - ============================================================
+2025-11-23 19:44:58,524 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-11-23 19:44:58,524 - __main__ - INFO - ============================================================
+2025-11-23 19:44:58,524 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-11-23 19:44:58,573 - __main__ - INFO - ✅ Toutes les dépendances sont installées
+2025-11-23 19:44:58,573 - __main__ - INFO - 🔍 Vérification de la configuration...
+2025-11-23 19:44:58,574 - __main__ - INFO - ✅ Configuration OK
+2025-11-23 19:44:58,574 - __main__ - INFO - 🔍 Test de connexion à la base de données...
+2025-11-23 19:44:58,590 - src.infrastructure.persistence.database - INFO - ✅ Pool de connexions initialisé (taille: 5)
+2025-11-23 19:44:58,590 - __main__ - INFO - ✅ Connecté à : COMPTA
+2025-11-23 19:44:58,590 - __main__ - INFO - ✅ Version MySQL : 10.11.13-MariaDB-0ubuntu0.24.04.1
+2025-11-23 19:44:58,591 - src.infrastructure.persistence.database - INFO - 🔌 Connexion fermée
+2025-11-23 19:44:58,591 - __main__ - INFO - 🚀 Lancement de l'interface graphique...
+2025-11-23 19:44:58,729 - src.presentation.gui_main - INFO - ✅ Application démarrée
+2025-11-23 19:44:58,803 - __main__ - INFO - ✅ Application démarrée avec succès
+2025-11-23 19:44:58,803 - __main__ - INFO - ============================================================
+2025-11-23 19:45:02,335 - src.infrastructure.persistence.database - ERROR - ❌ Erreur lors de l'exécution : 1054 (42S22): Unknown column 'EcritureId' in 'SELECT'
+2025-11-23 19:45:02,335 - src.application.services - ERROR - ❌ Erreur test comptabilité : Erreur d'exécution SQL: 1054 (42S22): Unknown column 'EcritureId' in 'SELECT'
+2025-11-23 19:45:06,886 - __main__ - INFO - 👋 Application fermée
+2025-11-23 19:50:07,713 - __main__ - INFO - ============================================================
+2025-11-23 19:50:07,713 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-11-23 19:50:07,713 - __main__ - INFO - ============================================================
+2025-11-23 19:50:07,713 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-11-23 19:50:07,761 - __main__ - INFO - ✅ Toutes les dépendances sont installées
+2025-11-23 19:50:07,761 - __main__ - INFO - 🔍 Vérification de la configuration...
+2025-11-23 19:50:07,762 - __main__ - INFO - ✅ Configuration OK
+2025-11-23 19:50:07,762 - __main__ - INFO - 🔍 Test de connexion à la base de données...
+2025-11-23 19:50:07,779 - src.infrastructure.persistence.database - INFO - ✅ Pool de connexions initialisé (taille: 5)
+2025-11-23 19:50:07,779 - __main__ - INFO - ✅ Connecté à : COMPTA
+2025-11-23 19:50:07,779 - __main__ - INFO - ✅ Version MySQL : 10.11.13-MariaDB-0ubuntu0.24.04.1
+2025-11-23 19:50:07,780 - src.infrastructure.persistence.database - INFO - 🔌 Connexion fermée
+2025-11-23 19:50:07,780 - __main__ - INFO - 🚀 Lancement de l'interface graphique...
+2025-11-23 19:50:07,922 - src.presentation.gui_main - INFO - ✅ Application démarrée
+2025-11-23 19:50:07,982 - __main__ - INFO - ✅ Application démarrée avec succès
+2025-11-23 19:50:07,982 - __main__ - INFO - ============================================================
+2025-11-23 19:50:13,185 - src.infrastructure.persistence.database - ERROR - ❌ Erreur lors de l'exécution : 1054 (42S22): Unknown column 'EcritureId' in 'SELECT'
+2025-11-23 19:50:13,186 - src.application.services - ERROR - ❌ Erreur test comptabilité : Erreur d'exécution SQL: 1054 (42S22): Unknown column 'EcritureId' in 'SELECT'
+2025-11-23 19:50:17,388 - __main__ - INFO - 👋 Application fermée
+2025-11-23 19:54:40,219 - __main__ - INFO - ============================================================
+2025-11-23 19:54:40,220 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-11-23 19:54:40,220 - __main__ - INFO - ============================================================
+2025-11-23 19:54:40,220 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-11-23 19:54:40,266 - __main__ - INFO - ✅ Toutes les dépendances sont installées
+2025-11-23 19:54:40,266 - __main__ - INFO - 🔍 Vérification de la configuration...
+2025-11-23 19:54:40,266 - __main__ - INFO - ✅ Configuration OK
+2025-11-23 19:54:40,266 - __main__ - INFO - 🔍 Test de connexion à la base de données...
+2025-11-23 19:54:40,282 - src.infrastructure.persistence.database - INFO - ✅ Pool de connexions initialisé (taille: 5)
+2025-11-23 19:54:40,283 - __main__ - INFO - ✅ Connecté à : COMPTA
+2025-11-23 19:54:40,283 - __main__ - INFO - ✅ Version MySQL : 10.11.13-MariaDB-0ubuntu0.24.04.1
+2025-11-23 19:54:40,283 - src.infrastructure.persistence.database - INFO - 🔌 Connexion fermée
+2025-11-23 19:54:40,283 - __main__ - INFO - 🚀 Lancement de l'interface graphique...
+2025-11-23 19:54:40,426 - src.presentation.gui_main - INFO - ✅ Application démarrée
+2025-11-23 19:54:40,484 - __main__ - INFO - ✅ Application démarrée avec succès
+2025-11-23 19:54:40,484 - __main__ - INFO - ============================================================
+2025-11-23 19:54:44,341 - src.infrastructure.persistence.database - ERROR - ❌ Erreur lors de l'exécution : 1054 (42S22): Unknown column 'e.SocieteCode' in 'WHERE'
+2025-11-23 19:54:44,341 - src.application.services - ERROR - ❌ Erreur test comptabilité : Erreur d'exécution SQL: 1054 (42S22): Unknown column 'e.SocieteCode' in 'WHERE'
+2025-11-23 20:11:56,770 - src.infrastructure.persistence.database - ERROR - ❌ Erreur lors de l'exécution : 1054 (42S22): Unknown column 'c.Numero' in 'WHERE'
+2025-11-23 20:11:56,771 - src.application.services - ERROR - ❌ Erreur test comptabilité : Erreur d'exécution SQL: 1054 (42S22): Unknown column 'c.Numero' in 'WHERE'
+2025-11-23 20:12:04,917 - __main__ - INFO - 👋 Application fermée
+2025-11-23 20:27:05,283 - __main__ - INFO - ============================================================
+2025-11-23 20:27:05,283 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-11-23 20:27:05,283 - __main__ - INFO - ============================================================
+2025-11-23 20:27:05,283 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-11-23 20:27:05,351 - __main__ - INFO - ✅ Toutes les dépendances sont installées
+2025-11-23 20:27:05,351 - __main__ - INFO - 🔍 Vérification de la configuration...
+2025-11-23 20:27:05,352 - __main__ - INFO - ✅ Configuration OK
+2025-11-23 20:27:05,352 - __main__ - INFO - 🔍 Test de connexion à la base de données...
+2025-11-23 20:27:05,374 - src.infrastructure.persistence.database - INFO - ✅ Pool de connexions initialisé (taille: 5)
+2025-11-23 20:27:05,375 - __main__ - INFO - ✅ Connecté à : COMPTA
+2025-11-23 20:27:05,375 - __main__ - INFO - ✅ Version MySQL : 10.11.13-MariaDB-0ubuntu0.24.04.1
+2025-11-23 20:27:05,375 - src.infrastructure.persistence.database - INFO - 🔌 Connexion fermée
+2025-11-23 20:27:05,375 - __main__ - INFO - 🚀 Lancement de l'interface graphique...
+2025-11-23 20:27:05,556 - src.presentation.gui_main - INFO - ✅ Application démarrée
+2025-11-23 20:27:05,647 - __main__ - INFO - ✅ Application démarrée avec succès
+2025-11-23 20:27:05,647 - __main__ - INFO - ============================================================
+2025-11-23 20:27:10,994 - src.infrastructure.persistence.database - ERROR - ❌ Erreur lors de l'exécution : 1054 (42S22): Unknown column 'c.Numero' in 'WHERE'
+2025-11-23 20:27:10,994 - src.application.services - ERROR - ❌ Erreur test comptabilité : Erreur d'exécution SQL: 1054 (42S22): Unknown column 'c.Numero' in 'WHERE'
+2025-11-23 20:27:36,165 - src.infrastructure.persistence.database - ERROR - ❌ Erreur lors de l'exécution : 1054 (42S22): Unknown column 'c.Numero' in 'WHERE'
+2025-11-23 20:27:36,165 - src.application.services - ERROR - ❌ Erreur test comptabilité : Erreur d'exécution SQL: 1054 (42S22): Unknown column 'c.Numero' in 'WHERE'
+2025-11-23 20:34:50,400 - __main__ - INFO - 👋 Application fermée
+2025-11-23 20:35:03,963 - __main__ - INFO - ============================================================
+2025-11-23 20:35:03,964 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-11-23 20:35:03,964 - __main__ - INFO - ============================================================
+2025-11-23 20:35:03,964 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-11-23 20:35:04,032 - __main__ - INFO - ✅ Toutes les dépendances sont installées
+2025-11-23 20:35:04,032 - __main__ - INFO - 🔍 Vérification de la configuration...
+2025-11-23 20:35:04,033 - __main__ - INFO - ✅ Configuration OK
+2025-11-23 20:35:04,033 - __main__ - INFO - 🔍 Test de connexion à la base de données...
+2025-11-23 20:35:04,052 - src.infrastructure.persistence.database - INFO - ✅ Pool de connexions initialisé (taille: 5)
+2025-11-23 20:35:04,053 - __main__ - INFO - ✅ Connecté à : COMPTA
+2025-11-23 20:35:04,053 - __main__ - INFO - ✅ Version MySQL : 10.11.13-MariaDB-0ubuntu0.24.04.1
+2025-11-23 20:35:04,053 - src.infrastructure.persistence.database - INFO - 🔌 Connexion fermée
+2025-11-23 20:35:04,053 - __main__ - INFO - 🚀 Lancement de l'interface graphique...
+2025-11-23 20:35:04,199 - src.presentation.gui_main - INFO - ✅ Application démarrée
+2025-11-23 20:35:04,275 - __main__ - INFO - ✅ Application démarrée avec succès
+2025-11-23 20:35:04,275 - __main__ - INFO - ============================================================
+2025-11-23 20:49:47,453 - __main__ - INFO - 👋 Application fermée
+2025-11-23 20:52:59,794 - __main__ - INFO - ============================================================
+2025-11-23 20:52:59,794 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-11-23 20:52:59,794 - __main__ - INFO - ============================================================
+2025-11-23 20:52:59,794 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-11-23 20:52:59,867 - __main__ - INFO - ✅ Toutes les dépendances sont installées
+2025-11-23 20:52:59,867 - __main__ - INFO - 🔍 Vérification de la configuration...
+2025-11-23 20:52:59,868 - __main__ - INFO - ✅ Configuration OK
+2025-11-23 20:52:59,868 - __main__ - INFO - 🔍 Test de connexion à la base de données...
+2025-11-23 20:52:59,890 - src.infrastructure.persistence.database - INFO - ✅ Pool de connexions initialisé (taille: 5)
+2025-11-23 20:52:59,891 - __main__ - INFO - ✅ Connecté à : COMPTA
+2025-11-23 20:52:59,891 - __main__ - INFO - ✅ Version MySQL : 10.11.13-MariaDB-0ubuntu0.24.04.1
+2025-11-23 20:52:59,891 - src.infrastructure.persistence.database - INFO - 🔌 Connexion fermée
+2025-11-23 20:52:59,891 - __main__ - INFO - 🚀 Lancement de l'interface graphique...
+2025-11-23 20:53:00,039 - src.presentation.gui_main - INFO - ✅ Application démarrée
+2025-11-23 20:53:00,108 - __main__ - INFO - ✅ Application démarrée avec succès
+2025-11-23 20:53:00,108 - __main__ - INFO - ============================================================
+2025-11-23 20:54:20,060 - __main__ - INFO - 👋 Application fermée
+2025-11-23 20:57:33,318 - __main__ - INFO - ============================================================
+2025-11-23 20:57:33,318 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-11-23 20:57:33,318 - __main__ - INFO - ============================================================
+2025-11-23 20:57:33,318 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-11-23 20:57:33,366 - __main__ - INFO - ✅ Toutes les dépendances sont installées
+2025-11-23 20:57:33,366 - __main__ - INFO - 🔍 Vérification de la configuration...
+2025-11-23 20:57:33,367 - __main__ - INFO - ✅ Configuration OK
+2025-11-23 20:57:33,367 - __main__ - INFO - 🔍 Test de connexion à la base de données...
+2025-11-23 20:57:33,383 - src.infrastructure.persistence.database - INFO - ✅ Pool de connexions initialisé (taille: 5)
+2025-11-23 20:57:33,384 - __main__ - INFO - ✅ Connecté à : COMPTA
+2025-11-23 20:57:33,384 - __main__ - INFO - ✅ Version MySQL : 10.11.13-MariaDB-0ubuntu0.24.04.1
+2025-11-23 20:57:33,385 - src.infrastructure.persistence.database - INFO - 🔌 Connexion fermée
+2025-11-23 20:57:33,385 - __main__ - INFO - 🚀 Lancement de l'interface graphique...
+2025-11-23 20:57:33,523 - src.presentation.gui_main - INFO - ✅ Application démarrée
+2025-11-23 20:57:33,578 - __main__ - INFO - ✅ Application démarrée avec succès
+2025-11-23 20:57:33,579 - __main__ - INFO - ============================================================
+2025-11-23 21:00:41,885 - __main__ - INFO - 👋 Application fermée
+2025-11-23 21:09:26,709 - __main__ - INFO - ============================================================
+2025-11-23 21:09:26,709 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-11-23 21:09:26,709 - __main__ - INFO - ============================================================
+2025-11-23 21:09:26,709 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-11-23 21:09:26,756 - __main__ - INFO - ✅ Toutes les dépendances sont installées
+2025-11-23 21:09:26,756 - __main__ - INFO - 🔍 Vérification de la configuration...
+2025-11-23 21:09:26,757 - __main__ - INFO - ✅ Configuration OK
+2025-11-23 21:09:26,757 - __main__ - INFO - 🔍 Test de connexion à la base de données...
+2025-11-23 21:09:26,775 - src.infrastructure.persistence.database - INFO - ✅ Pool de connexions initialisé (taille: 5)
+2025-11-23 21:09:26,775 - __main__ - INFO - ✅ Connecté à : COMPTA
+2025-11-23 21:09:26,776 - __main__ - INFO - ✅ Version MySQL : 10.11.13-MariaDB-0ubuntu0.24.04.1
+2025-11-23 21:09:26,776 - src.infrastructure.persistence.database - INFO - 🔌 Connexion fermée
+2025-11-23 21:09:26,776 - __main__ - INFO - 🚀 Lancement de l'interface graphique...
+2025-11-23 21:09:26,912 - src.presentation.gui_main - INFO - ✅ Application démarrée
+2025-11-23 21:09:26,966 - __main__ - INFO - ✅ Application démarrée avec succès
+2025-11-23 21:09:26,966 - __main__ - INFO - ============================================================
+2025-11-23 21:15:29,140 - __main__ - INFO - 👋 Application fermée
+2025-11-23 21:15:32,314 - __main__ - INFO - ============================================================
+2025-11-23 21:15:32,315 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-11-23 21:15:32,315 - __main__ - INFO - ============================================================
+2025-11-23 21:15:32,315 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-11-23 21:15:32,372 - __main__ - INFO - ✅ Toutes les dépendances sont installées
+2025-11-23 21:15:32,372 - __main__ - INFO - 🔍 Vérification de la configuration...
+2025-11-23 21:15:32,373 - __main__ - INFO - ✅ Configuration OK
+2025-11-23 21:15:32,373 - __main__ - INFO - 🔍 Test de connexion à la base de données...
+2025-11-23 21:15:32,391 - src.infrastructure.persistence.database - INFO - ✅ Pool de connexions initialisé (taille: 5)
+2025-11-23 21:15:32,392 - __main__ - INFO - ✅ Connecté à : COMPTA
+2025-11-23 21:15:32,392 - __main__ - INFO - ✅ Version MySQL : 10.11.13-MariaDB-0ubuntu0.24.04.1
+2025-11-23 21:15:32,393 - src.infrastructure.persistence.database - INFO - 🔌 Connexion fermée
+2025-11-23 21:15:32,393 - __main__ - INFO - 🚀 Lancement de l'interface graphique...
+2025-11-23 21:15:32,532 - src.presentation.gui_main - INFO - ✅ Application démarrée
+2025-11-23 21:15:32,586 - __main__ - INFO - ✅ Application démarrée avec succès
+2025-11-23 21:15:32,586 - __main__ - INFO - ============================================================
+2025-11-23 21:21:57,383 - __main__ - INFO - 👋 Application fermée
+2025-11-23 21:22:00,334 - __main__ - INFO - ============================================================
+2025-11-23 21:22:00,335 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-11-23 21:22:00,335 - __main__ - INFO - ============================================================
+2025-11-23 21:22:00,335 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-11-23 21:22:00,387 - __main__ - INFO - ✅ Toutes les dépendances sont installées
+2025-11-23 21:22:00,387 - __main__ - INFO - 🔍 Vérification de la configuration...
+2025-11-23 21:22:00,388 - __main__ - INFO - ✅ Configuration OK
+2025-11-23 21:22:00,388 - __main__ - INFO - 🔍 Test de connexion à la base de données...
+2025-11-23 21:22:00,405 - src.infrastructure.persistence.database - INFO - ✅ Pool de connexions initialisé (taille: 5)
+2025-11-23 21:22:00,405 - __main__ - INFO - ✅ Connecté à : COMPTA
+2025-11-23 21:22:00,405 - __main__ - INFO - ✅ Version MySQL : 10.11.13-MariaDB-0ubuntu0.24.04.1
+2025-11-23 21:22:00,406 - src.infrastructure.persistence.database - INFO - 🔌 Connexion fermée
+2025-11-23 21:22:00,406 - __main__ - INFO - 🚀 Lancement de l'interface graphique...
+2025-11-23 21:22:00,551 - src.presentation.gui_main - INFO - ✅ Application démarrée
+2025-11-23 21:22:00,601 - __main__ - INFO - ✅ Application démarrée avec succès
+2025-11-23 21:22:00,601 - __main__ - INFO - ============================================================
+2025-11-23 21:24:28,104 - __main__ - INFO - 👋 Application fermée
+2025-11-23 21:27:16,689 - __main__ - INFO - ============================================================
+2025-11-23 21:27:16,689 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-11-23 21:27:16,689 - __main__ - INFO - ============================================================
+2025-11-23 21:27:16,689 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-11-23 21:27:16,736 - __main__ - INFO - ✅ Toutes les dépendances sont installées
+2025-11-23 21:27:16,736 - __main__ - INFO - 🔍 Vérification de la configuration...
+2025-11-23 21:27:16,737 - __main__ - INFO - ✅ Configuration OK
+2025-11-23 21:27:16,737 - __main__ - INFO - 🔍 Test de connexion à la base de données...
+2025-11-23 21:27:16,757 - src.infrastructure.persistence.database - INFO - ✅ Pool de connexions initialisé (taille: 5)
+2025-11-23 21:27:16,758 - __main__ - INFO - ✅ Connecté à : COMPTA
+2025-11-23 21:27:16,758 - __main__ - INFO - ✅ Version MySQL : 10.11.13-MariaDB-0ubuntu0.24.04.1
+2025-11-23 21:27:16,759 - src.infrastructure.persistence.database - INFO - 🔌 Connexion fermée
+2025-11-23 21:27:16,759 - __main__ - INFO - 🚀 Lancement de l'interface graphique...
+2025-11-23 21:27:16,894 - src.presentation.gui_main - INFO - ✅ Application démarrée
+2025-11-23 21:27:16,948 - __main__ - INFO - ✅ Application démarrée avec succès
+2025-11-23 21:27:16,948 - __main__ - INFO - ============================================================
+2025-11-23 21:27:45,768 - src.application.services - INFO - ✅ Écriture AC-2025-00002 créée avec succès (ID: 2)
+2025-11-23 21:28:14,752 - src.application.services - INFO - ✅ Écriture VE-2025-00001 créée avec succès (ID: 3)
+2025-11-23 21:31:28,334 - src.infrastructure.persistence.database - ERROR - ❌ Erreur lors de l'exécution : 1305 (42000): PROCEDURE COMPTA.Calculer_Balance does not exist
+2025-11-23 21:33:41,837 - src.infrastructure.persistence.dao - INFO - ✅ Balance recalculée
+2025-11-23 21:34:35,759 - __main__ - INFO - 👋 Application fermée
+2025-11-23 22:04:30,949 - __main__ - INFO - ============================================================
+2025-11-23 22:04:30,950 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-11-23 22:04:30,950 - __main__ - INFO - ============================================================
+2025-11-23 22:04:30,950 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-11-23 22:04:31,000 - __main__ - INFO - ✅ Toutes les dépendances sont installées
+2025-11-23 22:04:31,000 - __main__ - INFO - 🔍 Vérification de la configuration...
+2025-11-23 22:04:31,001 - __main__ - INFO - ✅ Configuration OK
+2025-11-23 22:04:31,001 - __main__ - INFO - 🔍 Test de connexion à la base de données...
+2025-11-23 22:04:31,016 - src.infrastructure.persistence.database - INFO - ✅ Pool de connexions initialisé (taille: 5)
+2025-11-23 22:04:31,017 - __main__ - INFO - ✅ Connecté à : COMPTA
+2025-11-23 22:04:31,017 - __main__ - INFO - ✅ Version MySQL : 10.11.13-MariaDB-0ubuntu0.24.04.1
+2025-11-23 22:04:31,017 - src.infrastructure.persistence.database - INFO - 🔌 Connexion fermée
+2025-11-23 22:04:31,017 - __main__ - INFO - 🚀 Lancement de l'interface graphique...
+2025-11-23 22:04:31,152 - src.presentation.gui_main - INFO - ✅ Application démarrée
+2025-11-23 22:04:31,201 - __main__ - INFO - ✅ Application démarrée avec succès
+2025-11-23 22:04:31,201 - __main__ - INFO - ============================================================
+2025-11-23 22:06:32,575 - src.infrastructure.persistence.dao - INFO - ✅ Balance recalculée
+2025-11-23 22:28:00,261 - __main__ - INFO - 👋 Application fermée
+2025-11-23 22:28:12,278 - __main__ - INFO - ============================================================
+2025-11-23 22:28:12,278 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-11-23 22:28:12,278 - __main__ - INFO - ============================================================
+2025-11-23 22:28:12,278 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-11-23 22:28:12,323 - __main__ - INFO - ✅ Toutes les dépendances sont installées
+2025-11-23 22:28:12,323 - __main__ - INFO - 🔍 Vérification de la configuration...
+2025-11-23 22:28:12,323 - __main__ - INFO - ✅ Configuration OK
+2025-11-23 22:28:12,324 - __main__ - INFO - 🔍 Test de connexion à la base de données...
+2025-11-23 22:28:12,342 - src.infrastructure.persistence.database - INFO - ✅ Pool de connexions initialisé (taille: 5)
+2025-11-23 22:28:12,342 - __main__ - INFO - ✅ Connecté à : COMPTA
+2025-11-23 22:28:12,342 - __main__ - INFO - ✅ Version MySQL : 10.11.13-MariaDB-0ubuntu0.24.04.1
+2025-11-23 22:28:12,343 - src.infrastructure.persistence.database - INFO - 🔌 Connexion fermée
+2025-11-23 22:28:12,343 - __main__ - INFO - 🚀 Lancement de l'interface graphique...
+2025-11-23 22:28:12,481 - src.presentation.gui_main - INFO - ✅ Application démarrée
+2025-11-23 22:28:12,544 - __main__ - INFO - ✅ Application démarrée avec succès
+2025-11-23 22:28:12,544 - __main__ - INFO - ============================================================
+2025-11-23 22:34:12,648 - __main__ - INFO - 👋 Application fermée
+2025-11-23 22:34:18,947 - __main__ - INFO - ============================================================
+2025-11-23 22:34:18,947 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-11-23 22:34:18,947 - __main__ - INFO - ============================================================
+2025-11-23 22:34:18,947 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-11-23 22:34:18,994 - __main__ - INFO - ✅ Toutes les dépendances sont installées
+2025-11-23 22:34:18,994 - __main__ - INFO - 🔍 Vérification de la configuration...
+2025-11-23 22:34:18,995 - __main__ - INFO - ✅ Configuration OK
+2025-11-23 22:34:18,995 - __main__ - INFO - 🔍 Test de connexion à la base de données...
+2025-11-23 22:34:19,010 - src.infrastructure.persistence.database - INFO - ✅ Pool de connexions initialisé (taille: 5)
+2025-11-23 22:34:19,011 - __main__ - INFO - ✅ Connecté à : COMPTA
+2025-11-23 22:34:19,011 - __main__ - INFO - ✅ Version MySQL : 10.11.13-MariaDB-0ubuntu0.24.04.1
+2025-11-23 22:34:19,012 - src.infrastructure.persistence.database - INFO - 🔌 Connexion fermée
+2025-11-23 22:34:19,012 - __main__ - INFO - 🚀 Lancement de l'interface graphique...
+2025-11-23 22:34:19,147 - src.presentation.gui_main - INFO - ✅ Application démarrée
+2025-11-23 22:34:19,198 - __main__ - INFO - ✅ Application démarrée avec succès
+2025-11-23 22:34:19,198 - __main__ - INFO - ============================================================
+2025-11-23 22:48:01,458 - __main__ - INFO - 👋 Application fermée
+2025-11-24 12:33:20,326 - __main__ - INFO - ============================================================
+2025-11-24 12:33:20,328 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-11-24 12:33:20,328 - __main__ - INFO - ============================================================
+2025-11-24 12:33:20,328 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-11-24 12:33:20,379 - __main__ - INFO - ✅ Toutes les dépendances sont installées
+2025-11-24 12:33:20,379 - __main__ - INFO - 🔍 Vérification de la configuration...
+2025-11-24 12:33:20,381 - __main__ - INFO - ✅ Configuration OK
+2025-11-24 12:33:20,381 - __main__ - INFO - 🔍 Test de connexion à la base de données...
+2025-11-24 12:33:20,403 - src.infrastructure.persistence.database - INFO - ✅ Pool de connexions initialisé (taille: 5)
+2025-11-24 12:33:20,404 - __main__ - INFO - ✅ Connecté à : COMPTA
+2025-11-24 12:33:20,404 - __main__ - INFO - ✅ Version MySQL : 10.11.13-MariaDB-0ubuntu0.24.04.1
+2025-11-24 12:33:20,404 - src.infrastructure.persistence.database - INFO - 🔌 Connexion fermée
+2025-11-24 12:33:20,404 - __main__ - INFO - 🚀 Lancement de l'interface graphique...
+2025-11-24 12:33:20,537 - src.presentation.gui_main - INFO - ✅ Application démarrée
+2025-11-24 12:33:20,603 - __main__ - INFO - ✅ Application démarrée avec succès
+2025-11-24 12:33:20,603 - __main__ - INFO - ============================================================
+2025-11-24 16:14:52,593 - src.infrastructure.persistence.dao - INFO - ✅ Balance recalculée
+2025-11-24 22:19:02,517 - src.infrastructure.persistence.dao - INFO - ✅ Balance recalculée
+2025-11-24 22:27:43,278 - __main__ - INFO - 👋 Application fermée
+2025-11-24 22:27:48,368 - __main__ - INFO - ============================================================
+2025-11-24 22:27:48,368 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-11-24 22:27:48,369 - __main__ - INFO - ============================================================
+2025-11-24 22:27:48,369 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-11-24 22:27:48,473 - __main__ - INFO - ✅ Toutes les dépendances sont installées
+2025-11-24 22:27:48,473 - __main__ - INFO - 🔍 Vérification de la configuration...
+2025-11-24 22:27:48,474 - __main__ - INFO - ✅ Configuration OK
+2025-11-24 22:27:48,474 - __main__ - INFO - 🔍 Test de connexion à la base de données...
+2025-11-24 22:27:48,505 - src.infrastructure.persistence.database - INFO - ✅ Pool de connexions initialisé (taille: 5)
+2025-11-24 22:27:48,506 - __main__ - INFO - ✅ Connecté à : COMPTA
+2025-11-24 22:27:48,506 - __main__ - INFO - ✅ Version MySQL : 10.11.13-MariaDB-0ubuntu0.24.04.1
+2025-11-24 22:27:48,507 - src.infrastructure.persistence.database - INFO - 🔌 Connexion fermée
+2025-11-24 22:27:48,507 - __main__ - INFO - 🚀 Lancement de l'interface graphique...
+2025-11-24 22:27:48,696 - src.presentation.gui_main - INFO - ✅ Application démarrée
+2025-11-24 22:27:49,611 - __main__ - INFO - ✅ Application démarrée avec succès
+2025-11-24 22:27:49,611 - __main__ - INFO - ============================================================
+2025-11-25 15:22:29,271 - __main__ - INFO - ============================================================
+2025-11-25 15:22:29,271 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-11-25 15:22:29,271 - __main__ - INFO - ============================================================
+2025-11-25 15:22:29,271 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-11-25 15:22:29,366 - __main__ - INFO - ✅ Toutes les dépendances sont installées
+2025-11-25 15:22:29,366 - __main__ - INFO - 🔍 Vérification de la configuration...
+2025-11-25 15:22:29,367 - __main__ - INFO - ✅ Configuration OK
+2025-11-25 15:22:29,367 - __main__ - INFO - 🔍 Test de connexion à la base de données...
+2025-11-25 15:22:29,404 - src.infrastructure.persistence.database - INFO - ✅ Pool de connexions initialisé (taille: 5)
+2025-11-25 15:22:29,405 - __main__ - INFO - ✅ Connecté à : COMPTA
+2025-11-25 15:22:29,405 - __main__ - INFO - ✅ Version MySQL : 10.11.13-MariaDB-0ubuntu0.24.04.1
+2025-11-25 15:22:29,405 - src.infrastructure.persistence.database - INFO - 🔌 Connexion fermée
+2025-11-25 15:22:29,405 - __main__ - INFO - 🚀 Lancement de l'interface graphique...
+2025-11-25 15:22:29,573 - src.presentation.gui_main - INFO - ✅ Application démarrée
+2025-11-25 15:22:29,639 - __main__ - INFO - ✅ Application démarrée avec succès
+2025-11-25 15:22:29,640 - __main__ - INFO - ============================================================
+2025-11-26 20:23:47,247 - __main__ - INFO - 👋 Application fermée
+2025-11-26 20:23:52,220 - __main__ - INFO - ============================================================
+2025-11-26 20:23:52,220 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-11-26 20:23:52,220 - __main__ - INFO - ============================================================
+2025-11-26 20:23:52,220 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-11-26 20:23:52,282 - __main__ - INFO - ✅ Toutes les dépendances sont installées
+2025-11-26 20:23:52,282 - __main__ - INFO - 🔍 Vérification de la configuration...
+2025-11-26 20:23:52,283 - __main__ - INFO - ✅ Configuration OK
+2025-11-26 20:23:52,283 - __main__ - INFO - 🔍 Test de connexion à la base de données...
+2025-11-26 20:23:52,307 - src.infrastructure.persistence.database - INFO - ✅ Pool de connexions initialisé (taille: 5)
+2025-11-26 20:23:52,307 - __main__ - INFO - ✅ Connecté à : COMPTA
+2025-11-26 20:23:52,307 - __main__ - INFO - ✅ Version MySQL : 10.11.13-MariaDB-0ubuntu0.24.04.1
+2025-11-26 20:23:52,308 - src.infrastructure.persistence.database - INFO - 🔌 Connexion fermée
+2025-11-26 20:23:52,308 - __main__ - INFO - 🚀 Lancement de l'interface graphique...
+2025-11-26 20:23:52,444 - src.presentation.gui_main - INFO - ✅ Application démarrée
+2025-11-26 20:23:52,496 - __main__ - INFO - ✅ Application démarrée avec succès
+2025-11-26 20:23:52,496 - __main__ - INFO - ============================================================
+2025-11-26 20:24:24,901 - __main__ - INFO - 👋 Application fermée
+2025-11-26 20:25:31,170 - __main__ - INFO - ============================================================
+2025-11-26 20:25:31,170 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-11-26 20:25:31,171 - __main__ - INFO - ============================================================
+2025-11-26 20:25:31,171 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-11-26 20:25:31,219 - __main__ - INFO - ✅ Toutes les dépendances sont installées
+2025-11-26 20:25:31,219 - __main__ - INFO - 🔍 Vérification de la configuration...
+2025-11-26 20:25:31,220 - __main__ - INFO - ✅ Configuration OK
+2025-11-26 20:25:31,220 - __main__ - INFO - 🔍 Test de connexion à la base de données...
+2025-11-26 20:25:31,235 - src.infrastructure.persistence.database - INFO - ✅ Pool de connexions initialisé (taille: 5)
+2025-11-26 20:25:31,236 - __main__ - INFO - ✅ Connecté à : COMPTA
+2025-11-26 20:25:31,236 - __main__ - INFO - ✅ Version MySQL : 10.11.13-MariaDB-0ubuntu0.24.04.1
+2025-11-26 20:25:31,236 - src.infrastructure.persistence.database - INFO - 🔌 Connexion fermée
+2025-11-26 20:25:31,236 - __main__ - INFO - 🚀 Lancement de l'interface graphique...
+2025-11-26 20:25:31,364 - src.presentation.gui_main - INFO - ✅ Application démarrée
+2025-11-26 20:25:31,417 - __main__ - INFO - ✅ Application démarrée avec succès
+2025-11-26 20:25:31,417 - __main__ - INFO - ============================================================
+2025-11-26 20:25:54,964 - __main__ - INFO - 👋 Application fermée
+2025-11-26 20:42:42,495 - __main__ - INFO - ============================================================
+2025-11-26 20:42:42,495 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-11-26 20:42:42,495 - __main__ - INFO - ============================================================
+2025-11-26 20:42:42,495 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-11-26 20:42:42,543 - __main__ - INFO - ✅ Toutes les dépendances sont installées
+2025-11-26 20:42:42,543 - __main__ - INFO - 🔍 Vérification de la configuration...
+2025-11-26 20:42:42,544 - __main__ - INFO - ✅ Configuration OK
+2025-11-26 20:42:42,544 - __main__ - INFO - 🔍 Test de connexion à la base de données...
+2025-11-26 20:42:42,562 - src.infrastructure.persistence.database - INFO - ✅ Pool de connexions initialisé (taille: 5)
+2025-11-26 20:42:42,563 - __main__ - INFO - ✅ Connecté à : COMPTA
+2025-11-26 20:42:42,563 - __main__ - INFO - ✅ Version MySQL : 10.11.13-MariaDB-0ubuntu0.24.04.1
+2025-11-26 20:42:42,563 - src.infrastructure.persistence.database - INFO - 🔌 Connexion fermée
+2025-11-26 20:42:42,563 - __main__ - INFO - 🚀 Lancement de l'interface graphique...
+2025-11-26 20:42:42,715 - src.presentation.gui_main - INFO - ✅ Application démarrée
+2025-11-26 20:42:42,767 - __main__ - INFO - ✅ Application démarrée avec succès
+2025-11-26 20:42:42,767 - __main__ - INFO - ============================================================
+2025-11-26 23:16:40,017 - __main__ - INFO - 👋 Application fermée
+2025-12-03 01:58:39,287 - __main__ - INFO - ============================================================
+2025-12-03 01:58:39,288 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-12-03 01:58:39,288 - __main__ - INFO - ============================================================
+2025-12-03 01:58:39,288 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-12-03 01:58:39,347 - __main__ - INFO - ✅ Toutes les dépendances sont installées
+2025-12-03 01:58:39,347 - __main__ - INFO - 🔍 Vérification de la configuration...
+2025-12-03 01:58:39,348 - __main__ - INFO - ✅ Configuration OK
+2025-12-03 01:58:39,348 - __main__ - INFO - 🔍 Test de connexion à la base de données...
+2025-12-03 01:58:39,379 - src.infrastructure.persistence.database - INFO - ✅ Pool de connexions initialisé (taille: 5)
+2025-12-03 01:58:39,381 - __main__ - INFO - ✅ Connecté à : COMPTA
+2025-12-03 01:58:39,382 - __main__ - INFO - ✅ Version MySQL : 10.11.13-MariaDB-0ubuntu0.24.04.1
+2025-12-03 01:58:39,382 - src.infrastructure.persistence.database - INFO - 🔌 Connexion fermée
+2025-12-03 01:58:39,382 - __main__ - INFO - 🚀 Lancement de l'interface graphique...
+2025-12-03 01:58:39,542 - src.presentation.gui_main - INFO - ✅ Application démarrée
+2025-12-03 01:58:39,631 - __main__ - INFO - ✅ Application démarrée avec succès
+2025-12-03 01:58:39,631 - __main__ - INFO - ============================================================
+2025-12-06 09:12:21,288 - __main__ - INFO - 👋 Application fermée
+2025-12-06 09:57:30,569 - __main__ - INFO - ============================================================
+2025-12-06 09:57:30,569 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-12-06 09:57:30,569 - __main__ - INFO - ============================================================
+2025-12-06 09:57:30,570 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-12-06 09:57:30,634 - __main__ - INFO - ✅ Toutes les dépendances sont installées
+2025-12-06 09:57:30,634 - __main__ - INFO - 🔍 Vérification de la configuration...
+2025-12-06 09:57:30,635 - __main__ - INFO - ✅ Configuration OK
+2025-12-06 09:57:30,635 - __main__ - INFO - 🔍 Test de connexion à la base de données...
+2025-12-06 09:57:30,659 - src.infrastructure.persistence.database - INFO - ✅ Pool de connexions initialisé (taille: 5)
+2025-12-06 09:57:30,659 - __main__ - INFO - ✅ Connecté à : COMPTA
+2025-12-06 09:57:30,659 - __main__ - INFO - ✅ Version MySQL : 10.11.13-MariaDB-0ubuntu0.24.04.1
+2025-12-06 09:57:30,659 - src.infrastructure.persistence.database - INFO - 🔌 Connexion fermée
+2025-12-06 09:57:30,659 - __main__ - INFO - 🚀 Lancement de l'interface graphique...
+2025-12-06 09:57:30,802 - src.presentation.gui_main - INFO - ✅ Application démarrée
+2025-12-06 09:57:30,864 - __main__ - INFO - ✅ Application démarrée avec succès
+2025-12-06 09:57:30,864 - __main__ - INFO - ============================================================
+2025-12-07 00:57:03,290 - __main__ - INFO - 
+👋 Application interrompue par l'utilisateur
+2025-12-07 01:05:01,909 - __main__ - INFO - ============================================================
+2025-12-07 01:05:01,909 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-12-07 01:05:01,909 - __main__ - INFO - ============================================================
+2025-12-07 01:05:01,909 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-12-07 01:05:01,956 - __main__ - INFO - ✅ Toutes les dépendances sont installées
+2025-12-07 01:05:01,956 - __main__ - INFO - 🔍 Vérification de la configuration...
+2025-12-07 01:05:01,957 - __main__ - INFO - ✅ Configuration OK
+2025-12-07 01:05:01,957 - __main__ - INFO - 🔍 Test de connexion à la base de données...
+2025-12-07 01:05:01,974 - src.infrastructure.persistence.database - INFO - ✅ Pool de connexions initialisé (taille: 5)
+2025-12-07 01:05:01,975 - __main__ - INFO - ✅ Connecté à : COMPTA
+2025-12-07 01:05:01,975 - __main__ - INFO - ✅ Version MySQL : 10.11.13-MariaDB-0ubuntu0.24.04.1
+2025-12-07 01:05:01,975 - src.infrastructure.persistence.database - INFO - 🔌 Connexion fermée
+2025-12-07 01:05:01,975 - __main__ - INFO - 🚀 Lancement de l'interface graphique...
+2025-12-07 01:05:02,122 - src.presentation.gui_main - INFO - ✅ Application démarrée
+2025-12-07 01:05:02,200 - __main__ - INFO - ✅ Application démarrée avec succès
+2025-12-07 01:05:02,200 - __main__ - INFO - ============================================================
+2025-12-07 01:05:43,081 - __main__ - INFO - 👋 Application fermée
+2025-12-07 01:19:14,626 - __main__ - INFO - ============================================================
+2025-12-07 01:19:14,626 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-12-07 01:19:14,626 - __main__ - INFO - ============================================================
+2025-12-07 01:19:14,626 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-12-07 01:19:14,676 - __main__ - INFO - ✅ Toutes les dépendances sont installées
+2025-12-07 01:19:14,676 - __main__ - INFO - 🔍 Vérification de la configuration...
+2025-12-07 01:19:14,677 - __main__ - INFO - ✅ Configuration OK
+2025-12-07 01:19:14,677 - __main__ - INFO - 🔍 Test de connexion à la base de données...
+2025-12-07 01:19:14,693 - src.infrastructure.persistence.database - INFO - ✅ Pool de connexions initialisé (taille: 5)
+2025-12-07 01:19:14,693 - __main__ - INFO - ✅ Connecté à : COMPTA
+2025-12-07 01:19:14,693 - __main__ - INFO - ✅ Version MySQL : 10.11.13-MariaDB-0ubuntu0.24.04.1
+2025-12-07 01:19:14,694 - src.infrastructure.persistence.database - INFO - 🔌 Connexion fermée
+2025-12-07 01:19:14,694 - __main__ - INFO - 🚀 Lancement de l'interface graphique...
+2025-12-07 01:19:14,853 - __main__ - INFO - ✅ Interface moderne (ttkbootstrap) activée
+2025-12-07 01:19:14,862 - src.presentation.gui_main - INFO - ✅ Application démarrée
+2025-12-07 01:19:14,924 - __main__ - INFO - ✅ Application démarrée avec succès
+2025-12-07 01:19:14,924 - __main__ - INFO - ============================================================
+2025-12-07 01:21:58,590 - __main__ - INFO - 👋 Application fermée

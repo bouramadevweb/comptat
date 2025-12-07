@@ -1,0 +1,47 @@
+# ============================================================
+# DÉPENDANCES DE BASE (OBLIGATOIRES)
+# ============================================================
+mysql-connector-python==8.2.0
+python-dotenv==1.0.0
+
+# ============================================================
+# EXPORT ET RAPPORTS (RECOMMANDÉ)
+# ============================================================
+# Export Excel
+openpyxl==3.1.2
+
+# Export PDF
+reportlab==4.0.7
+
+# Interface graphique moderne
+ttkbootstrap==1.10.1
+
+# ============================================================
+# INTERFACE GRAPHIQUE (INCLUS DANS PYTHON)
+# ============================================================
+# tkinter est inclus par défaut avec Python
+# Si manquant sur Linux: sudo apt-get install python3-tk
+
+# ============================================================
+# OUTILS DE DÉVELOPPEMENT (OPTIONNEL)
+# ============================================================
+# Linting et formatage
+# pylint==3.0.3
+# black==23.12.1
+# mypy==1.8.0
+
+# Tests
+# pytest==7.4.3
+# pytest-cov==4.1.0
+
+# ============================================================
+# NOTES D'INSTALLATION
+# ============================================================
+# Installation de base :
+#   pip install mysql-connector-python python-dotenv
+#
+# Installation complète (avec export) :
+#   pip install -r requirements.txt
+#
+# Pour le développement :
+#   pip install -r requirements.txt pylint black mypy pytest pytest-cov

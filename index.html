@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Système de Comptabilité Python - Index</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+        }
+        .container {
+            background: white;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        h1 {
+            color: #667eea;
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            text-align: center;
+            color: #666;
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+        .section {
+            margin: 30px 0;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+        }
+        h2 {
+            color: #667eea;
+            margin-top: 0;
+        }
+        .file-list {
+            list-style: none;
+            padding: 0;
+        }
+        .file-list li {
+            padding: 12px;
+            margin: 8px 0;
+            background: white;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            transition: all 0.3s;
+        }
+        .file-list li:hover {
+            transform: translateX(5px);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .file-list a {
+            text-decoration: none;
+            color: #667eea;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+        }
+        .file-list a:hover {
+            color: #764ba2;
+        }
+        .icon {
+            font-size: 1.5em;
+            margin-right: 10px;
+        }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .stat-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .stat-number {
+            font-size: 2em;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .feature {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            border: 2px solid #667eea;
+        }
+        .feature-title {
+            color: #667eea;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin: 5px;
+            transition: transform 0.3s;
+        }
+        .btn:hover {
+            transform: scale(1.05);
+        }
+        .alert {
+            background: #d4edda;
+            border: 1px solid #c3e6cb;
+            color: #155724;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎉 Système de Comptabilité Python</h1>
+        <p class="subtitle">Application complète avec interface graphique Tkinter</p>
+
+        <div class="alert">
+            ✅ <strong>19 fichiers disponibles</strong> - 3,223 lignes de code Python professionnel
+        </div>
+
+        <div class="stats">
+            <div class="stat-card">
+                <div>Fichiers Python</div>
+                <div class="stat-number">12</div>
+            </div>
+            <div class="stat-card">
+                <div>Lignes de Code</div>
+                <div class="stat-number">3,223</div>
+            </div>
+            <div class="stat-card">
+                <div>Documentation</div>
+                <div class="stat-number">40+ pages</div>
+            </div>
+            <div class="stat-card">
+                <div>Taille Totale</div>
+                <div class="stat-number">175 Ko</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>🚀 Commencer Ici</h2>
+            <div>
+                <a href="START_HERE.md" class="btn">📖 Lire START_HERE.md</a>
+                <a href="QUICKSTART.md" class="btn">⚡ Guide Rapide</a>
+                <a href="README.md" class="btn">📚 Documentation Complète</a>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>📂 Fichiers Python (Code Source)</h2>
+            <ul class="file-list">
+                <li><a href="main.py"><span class="icon">🚀</span> main.py - Point d'entrée principal (165 lignes)</a></li>
+                <li><a href="config.py"><span class="icon">⚙️</span> config.py - Configuration (39 lignes)</a></li>
+                <li><a href="database.py"><span class="icon">🗄️</span> database.py - Gestionnaire MySQL (100 lignes)</a></li>
+                <li><a href="models.py"><span class="icon">📦</span> models.py - Modèles de données (136 lignes)</a></li>
+                <li><a href="dao.py"><span class="icon">🔧</span> dao.py - Data Access Objects (427 lignes)</a></li>
+                <li><a href="services.py"><span class="icon">💼</span> services.py - Logique métier (531 lignes)</a></li>
+                <li><a href="gui_main.py"><span class="icon">🖥️</span> gui_main.py - Interface principale (1,015 lignes)</a></li>
+                <li><a href="gui_vente.py"><span class="icon">📝</span> gui_vente.py - Saisie de vente (269 lignes)</a></li>
+                <li><a href="gui_achat.py"><span class="icon">🛒</span> gui_achat.py - Saisie d'achat (268 lignes)</a></li>
+                <li><a href="gui_ecriture.py"><span class="icon">✍️</span> gui_ecriture.py - Saisie manuelle (413 lignes)</a></li>
+                <li><a href="gui_rapports.py"><span class="icon">📊</span> gui_rapports.py - Rapports (543 lignes)</a></li>
+                <li><a href="test_installation.py"><span class="icon">🧪</span> test_installation.py - Tests (291 lignes)</a></li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>📚 Documentation</h2>
+            <ul class="file-list">
+                <li><a href="START_HERE.md"><span class="icon">🎯</span> START_HERE.md - Guide de démarrage complet</a></li>
+                <li><a href="INDEX.md"><span class="icon">📋</span> INDEX.md - Vue d'ensemble du projet</a></li>
+                <li><a href="QUICKSTART.md"><span class="icon">⚡</span> QUICKSTART.md - Installation en 5 minutes</a></li>
+                <li><a href="README.md"><span class="icon">📖</span> README.md - Documentation exhaustive (10 Ko)</a></li>
+                <li><a href="STRUCTURE.md"><span class="icon">🏗️</span> STRUCTURE.md - Architecture détaillée (12 Ko)</a></li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>🔧 Configuration</h2>
+            <ul class="file-list">
+                <li><a href="requirements.txt"><span class="icon">📋</span> requirements.txt - Dépendances Python</a></li>
+                <li><a href=".env.example"><span class="icon">⚙️</span> .env.example - Template de configuration</a></li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>✨ Fonctionnalités Principales</h2>
+            <div class="features">
+                <div class="feature">
+                    <div class="feature-title">📝 Saisie d'Écritures</div>
+                    <div>Ventes, Achats, Banque, OD</div>
+                </div>
+                <div class="feature">
+                    <div class="feature-title">📊 Plan Comptable</div>
+                    <div>Conforme au PCG français</div>
+                </div>
+                <div class="feature">
+                    <div class="feature-title">👥 Gestion Tiers</div>
+                    <div>Clients & Fournisseurs</div>
+                </div>
+                <div class="feature">
+                    <div class="feature-title">💶 TVA Automatique</div>
+                    <div>Calcul et déclaration</div>
+                </div>
+                <div class="feature">
+                    <div class="feature-title">📈 Rapports</div>
+                    <div>Balance, Résultat, Bilan</div>
+                </div>
+                <div class="feature">
+                    <div class="feature-title">📤 Export FEC</div>
+                    <div>Format légal administrations</div>
+                </div>
+                <div class="feature">
+                    <div class="feature-title">🧪 Tests Auto</div>
+                    <div>Validation de cohérence</div>
+                </div>
+                <div class="feature">
+                    <div class="feature-title">🔒 Clôture</div>
+                    <div>Résultat + Report à nouveau</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>🏗️ Architecture</h2>
+            <pre style="background: #2d3748; color: #e2e8f0; padding: 20px; border-radius: 5px; overflow-x: auto;">
+┌─────────────────────────────────────┐
+│   COUCHE PRÉSENTATION (GUI)         │
+│   Interface Tkinter intuitive       │
+└──────────────┬──────────────────────┘
+               │
+┌──────────────▼──────────────────────┐
+│   COUCHE MÉTIER (Services)          │
+│   Logique comptable complète        │
+└──────────────┬──────────────────────┘
+               │
+┌──────────────▼──────────────────────┐
+│   COUCHE DONNÉES (DAO)              │
+│   Accès base de données             │
+└──────────────┬──────────────────────┘
+               │
+          [MySQL/MariaDB]
+            </pre>
+        </div>
+
+        <div class="section">
+            <h2>🚀 Installation Rapide</h2>
+            <pre style="background: #2d3748; color: #e2e8f0; padding: 20px; border-radius: 5px;">
+# 1. Installer les dépendances
+pip install -r requirements.txt
+
+# 2. Configurer
+cp .env.example .env
+# Éditer .env avec vos paramètres MySQL
+
+# 3. Créer la base de données
+mysql -u root -p < schema_comptabilite.sql
+
+# 4. Tester l'installation
+python test_installation.py
+
+# 5. Lancer l'application
+python main.py
+            </pre>
+        </div>
+
+        <div class="section">
+            <h2>📊 Technologies</h2>
+            <ul>
+                <li><strong>Python 3.8+</strong> - Langage principal</li>
+                <li><strong>Tkinter</strong> - Interface graphique</li>
+                <li><strong>MySQL 8.0+</strong> - Base de données</li>
+                <li><strong>mysql-connector-python</strong> - Connexion DB</li>
+                <li><strong>Architecture POO</strong> - 4 couches</li>
+            </ul>
+        </div>
+
+        <div style="text-align: center; margin-top: 40px; padding: 20px; background: #f8f9fa; border-radius: 8px;">
+            <h3 style="color: #667eea;">🎉 Projet Complet et Prêt à l'Emploi !</h3>
+            <p>Version 2.0 - Usage pédagogique</p>
+            <p>Auteur : Exemple pédagogique COULIBALY Bourama</p>
+        </div>
+    </div>
+</body>
+</html>
