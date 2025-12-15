@@ -949,3 +949,470 @@ Installation :
 2025-12-07 01:19:14,924 - __main__ - INFO - ✅ Application démarrée avec succès
 2025-12-07 01:19:14,924 - __main__ - INFO - ============================================================
 2025-12-07 01:21:58,590 - __main__ - INFO - 👋 Application fermée
+2025-12-07 18:39:08,928 - __main__ - INFO - ============================================================
+2025-12-07 18:39:08,928 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-12-07 18:39:08,928 - __main__ - INFO - ============================================================
+2025-12-07 18:39:08,928 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-12-07 18:39:08,988 - __main__ - INFO - ✅ Toutes les dépendances sont installées
+2025-12-07 18:39:08,988 - __main__ - INFO - 🔍 Vérification de la configuration...
+2025-12-07 18:39:08,990 - __main__ - INFO - ✅ Configuration OK
+2025-12-07 18:39:08,990 - __main__ - INFO - 🔍 Test de connexion à la base de données...
+2025-12-07 18:39:09,010 - src.infrastructure.persistence.database - INFO - ✅ Pool de connexions initialisé (taille: 5)
+2025-12-07 18:39:09,010 - __main__ - INFO - ✅ Connecté à : COMPTA
+2025-12-07 18:39:09,011 - __main__ - INFO - ✅ Version MySQL : 10.11.13-MariaDB-0ubuntu0.24.04.1
+2025-12-07 18:39:09,011 - src.infrastructure.persistence.database - INFO - 🔌 Connexion fermée
+2025-12-07 18:39:09,011 - __main__ - INFO - 🚀 Lancement de l'interface graphique...
+2025-12-07 18:39:09,220 - __main__ - INFO - ✅ Interface moderne (ttkbootstrap) activée
+2025-12-07 18:39:09,221 - src.presentation.gui_main - INFO - ✅ Application démarrée
+2025-12-07 18:39:09,284 - __main__ - INFO - ✅ Application démarrée avec succès
+2025-12-07 18:39:09,284 - __main__ - INFO - ============================================================
+2025-12-07 18:40:28,449 - src.infrastructure.persistence.dao - INFO - ✅ Balance recalculée
+2025-12-07 18:40:56,386 - __main__ - INFO - 👋 Application fermée
+2025-12-12 01:05:23,665 - __main__ - INFO - ============================================================
+2025-12-12 01:05:23,666 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-12-12 01:05:23,666 - __main__ - INFO - ============================================================
+2025-12-12 01:05:23,666 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-12-12 01:05:23,792 - __main__ - INFO - ✅ Toutes les dépendances sont installées
+2025-12-12 01:05:23,793 - __main__ - INFO - 🔍 Vérification de la configuration...
+2025-12-12 01:05:23,795 - __main__ - INFO - ✅ Configuration OK
+2025-12-12 01:05:23,795 - __main__ - INFO - 🔍 Test de connexion à la base de données...
+2025-12-12 01:05:23,859 - src.infrastructure.persistence.database - INFO - ✅ Pool de connexions initialisé (taille: 5)
+2025-12-12 01:05:23,861 - __main__ - INFO - ✅ Connecté à : COMPTA
+2025-12-12 01:05:23,861 - __main__ - INFO - ✅ Version MySQL : 10.11.13-MariaDB-0ubuntu0.24.04.1
+2025-12-12 01:05:23,862 - src.infrastructure.persistence.database - INFO - 🔌 Connexion fermée
+2025-12-12 01:05:23,862 - __main__ - INFO - 🚀 Lancement de l'interface graphique...
+2025-12-12 01:05:24,467 - __main__ - INFO - ✅ Interface moderne (ttkbootstrap) activée
+2025-12-12 01:05:24,470 - src.presentation.gui_main - INFO - ✅ Application démarrée
+2025-12-12 01:05:24,722 - __main__ - INFO - ✅ Application démarrée avec succès
+2025-12-12 01:05:24,722 - __main__ - INFO - ============================================================
+2025-12-12 01:05:41,353 - __main__ - INFO - 👋 Application fermée
+2025-12-13 19:41:09,679 - __main__ - INFO - ============================================================
+2025-12-13 19:41:09,680 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-12-13 19:41:09,680 - __main__ - INFO - ============================================================
+2025-12-13 19:41:09,680 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-12-13 19:41:09,681 - __main__ - ERROR - ❌ Dépendances manquantes :
+
+  - mysql-connector-python
+  - python-dotenv
+
+Installation :
+  pip install -r requirements.txt
+2025-12-13 19:43:02,690 - __main__ - INFO - ============================================================
+2025-12-13 19:43:02,690 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-12-13 19:43:02,690 - __main__ - INFO - ============================================================
+2025-12-13 19:43:02,690 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-12-13 19:43:02,752 - __main__ - INFO - ✅ Toutes les dépendances sont installées
+2025-12-13 19:43:02,752 - __main__ - INFO - 🔍 Vérification de la configuration...
+2025-12-13 19:43:02,753 - __main__ - INFO - ✅ Configuration OK
+2025-12-13 19:43:02,754 - __main__ - INFO - 🔍 Test de connexion à la base de données...
+2025-12-13 19:43:02,771 - src.infrastructure.persistence.database - ERROR - ❌ Erreur initialisation pool : 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2025-12-13 19:43:02,771 - __main__ - ERROR - ❌ Impossible de se connecter à la base de données
+
+Erreur : Impossible d'initialiser le pool de connexions: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+
+Vérifications :
+1. MySQL/MariaDB est démarré ?
+2. Les paramètres dans .env sont corrects ?
+3. La base COMPTA existe ?
+   → mysql -u root -p < schema_comptabilite.sql
+2025-12-13 19:44:03,558 - __main__ - INFO - 
+👋 Application interrompue par l'utilisateur
+2025-12-13 19:45:06,290 - __main__ - INFO - ============================================================
+2025-12-13 19:45:06,290 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-12-13 19:45:06,290 - __main__ - INFO - ============================================================
+2025-12-13 19:45:06,290 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-12-13 19:45:06,338 - __main__ - INFO - ✅ Toutes les dépendances sont installées
+2025-12-13 19:45:06,338 - __main__ - INFO - 🔍 Vérification de la configuration...
+2025-12-13 19:45:06,338 - __main__ - INFO - ✅ Configuration OK
+2025-12-13 19:45:06,338 - __main__ - INFO - 🔍 Test de connexion à la base de données...
+2025-12-13 19:45:06,350 - src.infrastructure.persistence.database - ERROR - ❌ Erreur initialisation pool : 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2025-12-13 19:45:06,350 - __main__ - ERROR - ❌ Impossible de se connecter à la base de données
+
+Erreur : Impossible d'initialiser le pool de connexions: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+
+Vérifications :
+1. MySQL/MariaDB est démarré ?
+2. Les paramètres dans .env sont corrects ?
+3. La base COMPTA existe ?
+   → mysql -u root -p < schema_comptabilite.sql
+2025-12-13 19:48:45,890 - __main__ - INFO - ============================================================
+2025-12-13 19:48:45,890 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-12-13 19:48:45,890 - __main__ - INFO - ============================================================
+2025-12-13 19:48:45,890 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-12-13 19:48:45,936 - __main__ - INFO - ✅ Toutes les dépendances sont installées
+2025-12-13 19:48:45,936 - __main__ - INFO - 🔍 Vérification de la configuration...
+2025-12-13 19:48:45,937 - __main__ - INFO - ✅ Configuration OK
+2025-12-13 19:48:45,937 - __main__ - INFO - 🔍 Test de connexion à la base de données...
+2025-12-13 19:48:45,950 - src.infrastructure.persistence.database - ERROR - ❌ Erreur initialisation pool : 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2025-12-13 19:48:45,950 - __main__ - ERROR - ❌ Impossible de se connecter à la base de données
+
+Erreur : Impossible d'initialiser le pool de connexions: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+
+Vérifications :
+1. MySQL/MariaDB est démarré ?
+2. Les paramètres dans .env sont corrects ?
+3. La base COMPTA existe ?
+   → mysql -u root -p < schema_comptabilite.sql
+2025-12-13 20:02:54,228 - __main__ - INFO - ============================================================
+2025-12-13 20:02:54,228 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-12-13 20:02:54,228 - __main__ - INFO - ============================================================
+2025-12-13 20:02:54,228 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-12-13 20:02:54,273 - __main__ - INFO - ✅ Toutes les dépendances sont installées
+2025-12-13 20:02:54,273 - __main__ - INFO - 🔍 Vérification de la configuration...
+2025-12-13 20:02:54,274 - __main__ - INFO - ✅ Configuration OK
+2025-12-13 20:02:54,274 - __main__ - INFO - 🔍 Test de connexion à la base de données...
+2025-12-13 20:02:54,285 - src.infrastructure.persistence.database - ERROR - ❌ Erreur initialisation pool : 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2025-12-13 20:02:54,285 - __main__ - ERROR - ❌ Impossible de se connecter à la base de données
+
+Erreur : Impossible d'initialiser le pool de connexions: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+
+Vérifications :
+1. MySQL/MariaDB est démarré ?
+2. Les paramètres dans .env sont corrects ?
+3. La base COMPTA existe ?
+   → mysql -u root -p < schema_comptabilite.sql
+2025-12-13 22:19:17,280 - __main__ - INFO - ============================================================
+2025-12-13 22:19:17,280 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-12-13 22:19:17,280 - __main__ - INFO - ============================================================
+2025-12-13 22:19:17,280 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-12-13 22:19:17,355 - __main__ - INFO - ✅ Toutes les dépendances sont installées
+2025-12-13 22:19:17,355 - __main__ - INFO - 🔍 Vérification de la configuration...
+2025-12-13 22:19:17,356 - __main__ - INFO - ✅ Configuration OK
+2025-12-13 22:19:17,356 - __main__ - INFO - 🔍 Test de connexion à la base de données...
+2025-12-13 22:19:17,374 - src.infrastructure.persistence.database - ERROR - ❌ Erreur initialisation pool : 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2025-12-13 22:19:17,375 - __main__ - ERROR - ❌ Impossible de se connecter à la base de données
+
+Erreur : Impossible d'initialiser le pool de connexions: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+
+Vérifications :
+1. MySQL/MariaDB est démarré ?
+2. Les paramètres dans .env sont corrects ?
+3. La base COMPTA existe ?
+   → mysql -u root -p < schema_comptabilite.sql
+2025-12-13 22:20:12,992 - __main__ - INFO - ============================================================
+2025-12-13 22:20:12,992 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-12-13 22:20:12,992 - __main__ - INFO - ============================================================
+2025-12-13 22:20:12,992 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-12-13 22:20:13,045 - __main__ - INFO - ✅ Toutes les dépendances sont installées
+2025-12-13 22:20:13,046 - __main__ - INFO - 🔍 Vérification de la configuration...
+2025-12-13 22:20:13,046 - __main__ - INFO - ✅ Configuration OK
+2025-12-13 22:20:13,046 - __main__ - INFO - 🔍 Test de connexion à la base de données...
+2025-12-13 22:20:13,059 - src.infrastructure.persistence.database - ERROR - ❌ Erreur initialisation pool : 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2025-12-13 22:20:13,059 - __main__ - ERROR - ❌ Impossible de se connecter à la base de données
+
+Erreur : Impossible d'initialiser le pool de connexions: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+
+Vérifications :
+1. MySQL/MariaDB est démarré ?
+2. Les paramètres dans .env sont corrects ?
+3. La base COMPTA existe ?
+   → mysql -u root -p < schema_comptabilite.sql
+2025-12-14 02:47:08,494 - __main__ - INFO - ============================================================
+2025-12-14 02:47:08,495 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-12-14 02:47:08,495 - __main__ - INFO - ============================================================
+2025-12-14 02:47:08,495 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-12-14 02:47:08,580 - __main__ - INFO - ✅ Toutes les dépendances sont installées
+2025-12-14 02:47:08,580 - __main__ - INFO - 🔍 Vérification de la configuration...
+2025-12-14 02:47:08,581 - __main__ - INFO - ✅ Configuration OK
+2025-12-14 02:47:08,581 - __main__ - INFO - 🔍 Test de connexion à la base de données...
+2025-12-14 02:47:08,793 - src.infrastructure.persistence.database - INFO - ✅ Pool de connexions initialisé (taille: 5)
+2025-12-14 02:47:08,794 - __main__ - INFO - ✅ Connecté à : COMPTA
+2025-12-14 02:47:08,794 - __main__ - INFO - ✅ Version MySQL : 8.0.44-0ubuntu0.24.04.2
+2025-12-14 02:47:08,795 - src.infrastructure.persistence.database - INFO - 🔌 Connexion fermée
+2025-12-14 02:47:08,795 - __main__ - INFO - 🚀 Lancement de l'interface graphique...
+2025-12-14 02:47:09,113 - __main__ - INFO - ✅ Interface moderne (ttkbootstrap) activée
+2025-12-14 02:47:09,117 - src.presentation.gui_main - INFO - ✅ Application démarrée
+2025-12-14 02:47:09,266 - __main__ - INFO - ✅ Application démarrée avec succès
+2025-12-14 02:47:09,266 - __main__ - INFO - ============================================================
+2025-12-14 02:49:17,331 - __main__ - INFO - 
+👋 Application interrompue par l'utilisateur
+2025-12-14 03:06:04,907 - __main__ - INFO - ============================================================
+2025-12-14 03:06:04,907 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-12-14 03:06:04,907 - __main__ - INFO - ============================================================
+2025-12-14 03:06:04,907 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-12-14 03:06:04,958 - __main__ - INFO - ✅ Toutes les dépendances sont installées
+2025-12-14 03:06:04,958 - __main__ - INFO - 🔍 Vérification de la configuration...
+2025-12-14 03:06:04,959 - __main__ - INFO - ✅ Configuration OK
+2025-12-14 03:06:04,959 - __main__ - INFO - 🔍 Test de connexion à la base de données...
+2025-12-14 03:06:05,088 - src.infrastructure.persistence.database - INFO - ✅ Pool de connexions initialisé (taille: 5)
+2025-12-14 03:06:05,089 - __main__ - INFO - ✅ Connecté à : COMPTA
+2025-12-14 03:06:05,089 - __main__ - INFO - ✅ Version MySQL : 8.0.44-0ubuntu0.24.04.2
+2025-12-14 03:06:05,089 - src.infrastructure.persistence.database - INFO - 🔌 Connexion fermée
+2025-12-14 03:06:05,089 - __main__ - INFO - 🚀 Lancement de l'interface graphique...
+2025-12-14 03:06:05,259 - __main__ - INFO - ✅ Interface moderne (ttkbootstrap) activée
+2025-12-14 03:06:05,260 - src.presentation.gui_main - INFO - ✅ Application démarrée
+2025-12-14 03:06:05,315 - __main__ - INFO - ✅ Application démarrée avec succès
+2025-12-14 03:06:05,316 - __main__ - INFO - ============================================================
+2025-12-14 03:06:11,312 - __main__ - INFO - 👋 Application fermée
+2025-12-14 03:28:54,856 - __main__ - INFO - ============================================================
+2025-12-14 03:28:54,856 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-12-14 03:28:54,856 - __main__ - INFO - ============================================================
+2025-12-14 03:28:54,856 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-12-14 03:28:54,901 - __main__ - INFO - ✅ Toutes les dépendances sont installées
+2025-12-14 03:28:54,901 - __main__ - INFO - 🔍 Vérification de la configuration...
+2025-12-14 03:28:54,902 - __main__ - INFO - ✅ Configuration OK
+2025-12-14 03:28:54,902 - __main__ - INFO - 🔍 Test de connexion à la base de données...
+2025-12-14 03:28:55,019 - src.infrastructure.persistence.database - INFO - ✅ Pool de connexions initialisé (taille: 5)
+2025-12-14 03:28:55,020 - __main__ - INFO - ✅ Connecté à : COMPTA
+2025-12-14 03:28:55,020 - __main__ - INFO - ✅ Version MySQL : 8.0.44-0ubuntu0.24.04.2
+2025-12-14 03:28:55,020 - src.infrastructure.persistence.database - INFO - 🔌 Connexion fermée
+2025-12-14 03:28:55,020 - __main__ - INFO - 🚀 Lancement de l'interface graphique...
+2025-12-14 03:28:55,219 - __main__ - INFO - ✅ Interface moderne (ttkbootstrap) activée
+2025-12-14 03:28:55,221 - src.presentation.gui_main - INFO - ✅ Application démarrée
+2025-12-14 03:28:55,281 - __main__ - INFO - ✅ Application démarrée avec succès
+2025-12-14 03:28:55,281 - __main__ - INFO - ============================================================
+2025-12-14 03:29:20,785 - __main__ - INFO - 👋 Application fermée
+2025-12-14 03:34:39,214 - __main__ - INFO - ============================================================
+2025-12-14 03:34:39,214 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-12-14 03:34:39,214 - __main__ - INFO - ============================================================
+2025-12-14 03:34:39,214 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-12-14 03:34:39,258 - __main__ - INFO - ✅ Toutes les dépendances sont installées
+2025-12-14 03:34:39,258 - __main__ - INFO - 🔍 Vérification de la configuration...
+2025-12-14 03:34:39,259 - __main__ - INFO - ✅ Configuration OK
+2025-12-14 03:34:39,259 - __main__ - INFO - 🔍 Test de connexion à la base de données...
+2025-12-14 03:34:39,377 - src.infrastructure.persistence.database - INFO - ✅ Pool de connexions initialisé (taille: 5)
+2025-12-14 03:34:39,378 - __main__ - INFO - ✅ Connecté à : COMPTA
+2025-12-14 03:34:39,378 - __main__ - INFO - ✅ Version MySQL : 8.0.44-0ubuntu0.24.04.2
+2025-12-14 03:34:39,378 - src.infrastructure.persistence.database - INFO - 🔌 Connexion fermée
+2025-12-14 03:34:39,378 - __main__ - INFO - 🚀 Lancement de l'interface graphique...
+2025-12-14 03:34:39,548 - __main__ - INFO - ✅ Interface moderne (ttkbootstrap) activée
+2025-12-14 03:34:39,550 - src.presentation.gui_main - INFO - ✅ Application démarrée
+2025-12-14 03:34:39,609 - __main__ - INFO - ✅ Application démarrée avec succès
+2025-12-14 03:34:39,610 - __main__ - INFO - ============================================================
+2025-12-14 03:35:31,012 - __main__ - INFO - 👋 Application fermée
+2025-12-14 03:52:07,179 - __main__ - INFO - ============================================================
+2025-12-14 03:52:07,179 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-12-14 03:52:07,179 - __main__ - INFO - ============================================================
+2025-12-14 03:52:07,179 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-12-14 03:52:07,223 - __main__ - INFO - ✅ Toutes les dépendances sont installées
+2025-12-14 03:52:07,223 - __main__ - INFO - 🔍 Vérification de la configuration...
+2025-12-14 03:52:07,223 - __main__ - INFO - ✅ Configuration OK
+2025-12-14 03:52:07,223 - __main__ - INFO - 🔍 Test de connexion à la base de données...
+2025-12-14 03:52:07,349 - src.infrastructure.persistence.database - INFO - ✅ Pool de connexions initialisé (taille: 5)
+2025-12-14 03:52:07,349 - __main__ - INFO - ✅ Connecté à : COMPTA
+2025-12-14 03:52:07,349 - __main__ - INFO - ✅ Version MySQL : 8.0.44-0ubuntu0.24.04.2
+2025-12-14 03:52:07,350 - src.infrastructure.persistence.database - INFO - 🔌 Connexion fermée
+2025-12-14 03:52:07,350 - __main__ - INFO - 🚀 Lancement de l'interface graphique...
+2025-12-14 03:52:07,521 - __main__ - INFO - ✅ Interface moderne (ttkbootstrap) activée
+2025-12-14 03:52:07,523 - src.presentation.gui_main - INFO - ✅ Application démarrée
+2025-12-14 03:52:07,637 - __main__ - INFO - ✅ Application démarrée avec succès
+2025-12-14 03:52:07,638 - __main__ - INFO - ============================================================
+2025-12-14 03:52:33,316 - __main__ - INFO - 👋 Application fermée
+2025-12-15 23:12:29,735 - __main__ - INFO - ============================================================
+2025-12-15 23:12:29,736 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-12-15 23:12:29,736 - __main__ - INFO - ============================================================
+2025-12-15 23:12:29,736 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-12-15 23:12:29,736 - __main__ - ERROR - ❌ Dépendances manquantes :
+
+  - mysql-connector-python
+  - python-dotenv
+
+Installation :
+  pip install -r requirements.txt
+2025-12-15 23:15:16,573 - __main__ - INFO - ============================================================
+2025-12-15 23:15:16,573 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-12-15 23:15:16,573 - __main__ - INFO - ============================================================
+2025-12-15 23:15:16,573 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-12-15 23:15:16,573 - __main__ - ERROR - ❌ Dépendances manquantes :
+
+  - mysql-connector-python
+  - python-dotenv
+
+Installation :
+  pip install -r requirements.txt
+2025-12-15 23:19:41,994 - __main__ - INFO - ============================================================
+2025-12-15 23:19:41,994 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-12-15 23:19:41,994 - __main__ - INFO - ============================================================
+2025-12-15 23:19:41,995 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-12-15 23:19:41,995 - __main__ - ERROR - ❌ Dépendances manquantes :
+
+  - mysql-connector-python
+  - python-dotenv
+
+Installation :
+  pip install -r requirements.txt
+2025-12-15 23:20:17,066 - __main__ - INFO - ============================================================
+2025-12-15 23:20:17,066 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-12-15 23:20:17,066 - __main__ - INFO - ============================================================
+2025-12-15 23:20:17,066 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-12-15 23:20:17,127 - __main__ - INFO - ✅ Toutes les dépendances sont installées
+2025-12-15 23:20:17,127 - __main__ - INFO - 🔍 Vérification de la configuration...
+2025-12-15 23:20:17,128 - __main__ - INFO - ✅ Configuration OK
+2025-12-15 23:20:17,128 - __main__ - INFO - 🔍 Test de connexion à la base de données...
+2025-12-15 23:20:17,267 - src.infrastructure.persistence.database - INFO - ✅ Pool de connexions initialisé (taille: 5)
+2025-12-15 23:20:17,269 - __main__ - INFO - ✅ Connecté à : COMPTA
+2025-12-15 23:20:17,269 - __main__ - INFO - ✅ Version MySQL : 8.0.44-0ubuntu0.24.04.2
+2025-12-15 23:20:17,269 - src.infrastructure.persistence.database - INFO - 🔌 Connexion fermée
+2025-12-15 23:20:17,269 - __main__ - INFO - 🚀 Lancement de l'interface graphique...
+2025-12-15 23:20:17,458 - __main__ - INFO - ✅ Interface moderne (ttkbootstrap) activée
+2025-12-15 23:20:17,463 - src.presentation.gui_main - INFO - ✅ Application démarrée
+2025-12-15 23:20:17,540 - __main__ - INFO - ✅ Application démarrée avec succès
+2025-12-15 23:20:17,540 - __main__ - INFO - ============================================================
+2025-12-15 23:30:40,215 - __main__ - INFO - ============================================================
+2025-12-15 23:30:40,215 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-12-15 23:30:40,215 - __main__ - INFO - ============================================================
+2025-12-15 23:30:40,215 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-12-15 23:30:40,276 - __main__ - INFO - ✅ Toutes les dépendances sont installées
+2025-12-15 23:30:40,276 - __main__ - INFO - 🔍 Vérification de la configuration...
+2025-12-15 23:30:40,277 - __main__ - INFO - ✅ Configuration OK
+2025-12-15 23:30:40,277 - __main__ - INFO - 🔍 Test de connexion à la base de données...
+2025-12-15 23:30:40,414 - src.infrastructure.persistence.database - INFO - ✅ Pool de connexions initialisé (taille: 5)
+2025-12-15 23:30:40,415 - __main__ - INFO - ✅ Connecté à : COMPTA
+2025-12-15 23:30:40,415 - __main__ - INFO - ✅ Version MySQL : 8.0.44-0ubuntu0.24.04.2
+2025-12-15 23:30:40,415 - src.infrastructure.persistence.database - INFO - 🔌 Connexion fermée
+2025-12-15 23:30:40,415 - __main__ - INFO - 🚀 Lancement de l'interface graphique...
+2025-12-15 23:30:40,605 - __main__ - INFO - ✅ Interface moderne (ttkbootstrap) activée
+2025-12-15 23:30:40,620 - src.presentation.gui_main - INFO - ✅ Application démarrée
+2025-12-15 23:30:40,654 - __main__ - ERROR - ❌ Erreur lors du démarrage de l'application :
+
+cannot use geometry manager grid inside . which already has slaves managed by pack
+Traceback (most recent call last):
+  File "/home/bracoul/Bureau/Bureau/comptabilite/compta/comptabilite-python/main.py", line 166, in main
+    app = ComptaApp(root)
+          ^^^^^^^^^^^^^^^
+  File "/home/bracoul/Bureau/Bureau/comptabilite/compta/comptabilite-python/src/presentation/gui_main.py", line 63, in __init__
+    self._create_ui()
+  File "/home/bracoul/Bureau/Bureau/comptabilite/compta/comptabilite-python/src/presentation/gui_main.py", line 98, in _create_ui
+    self._create_central_widgets()
+  File "/home/bracoul/Bureau/Bureau/comptabilite/compta/comptabilite-python/src/presentation/gui_main.py", line 107, in _create_central_widgets
+    top_frame.grid(row=0, column=0, sticky=(tk.W, tk.E), columnspan=2)
+  File "/usr/lib/python3.12/tkinter/__init__.py", line 2569, in grid_configure
+    self.tk.call(
+_tkinter.TclError: cannot use geometry manager grid inside . which already has slaves managed by pack
+2025-12-15 23:32:02,642 - __main__ - INFO - ============================================================
+2025-12-15 23:32:02,642 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-12-15 23:32:02,642 - __main__ - INFO - ============================================================
+2025-12-15 23:32:02,642 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-12-15 23:32:02,687 - __main__ - INFO - ✅ Toutes les dépendances sont installées
+2025-12-15 23:32:02,687 - __main__ - INFO - 🔍 Vérification de la configuration...
+2025-12-15 23:32:02,688 - __main__ - INFO - ✅ Configuration OK
+2025-12-15 23:32:02,688 - __main__ - INFO - 🔍 Test de connexion à la base de données...
+2025-12-15 23:32:02,819 - src.infrastructure.persistence.database - INFO - ✅ Pool de connexions initialisé (taille: 5)
+2025-12-15 23:32:02,819 - __main__ - INFO - ✅ Connecté à : COMPTA
+2025-12-15 23:32:02,819 - __main__ - INFO - ✅ Version MySQL : 8.0.44-0ubuntu0.24.04.2
+2025-12-15 23:32:02,820 - src.infrastructure.persistence.database - INFO - 🔌 Connexion fermée
+2025-12-15 23:32:02,820 - __main__ - INFO - 🚀 Lancement de l'interface graphique...
+2025-12-15 23:32:03,035 - __main__ - INFO - ✅ Interface moderne (ttkbootstrap) activée
+2025-12-15 23:32:03,053 - src.presentation.gui_main - INFO - ✅ Application démarrée
+2025-12-15 23:32:03,161 - __main__ - INFO - ✅ Application démarrée avec succès
+2025-12-15 23:32:03,161 - __main__ - INFO - ============================================================
+2025-12-15 23:33:53,964 - __main__ - INFO - ============================================================
+2025-12-15 23:33:53,965 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-12-15 23:33:53,965 - __main__ - INFO - ============================================================
+2025-12-15 23:33:53,965 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-12-15 23:33:53,965 - __main__ - ERROR - ❌ Dépendances manquantes :
+
+  - mysql-connector-python
+  - python-dotenv
+
+Installation :
+  pip install -r requirements.txt
+2025-12-15 23:37:10,019 - __main__ - INFO - ============================================================
+2025-12-15 23:37:10,019 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-12-15 23:37:10,019 - __main__ - INFO - ============================================================
+2025-12-15 23:37:10,020 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-12-15 23:37:10,075 - __main__ - INFO - ✅ Toutes les dépendances sont installées
+2025-12-15 23:37:10,075 - __main__ - INFO - 🔍 Vérification de la configuration...
+2025-12-15 23:37:10,076 - __main__ - INFO - ✅ Configuration OK
+2025-12-15 23:37:10,076 - __main__ - INFO - 🔍 Test de connexion à la base de données...
+2025-12-15 23:37:10,089 - src.infrastructure.persistence.database - ERROR - ❌ Erreur initialisation pool : 2004 (HY000): Can't create TCP/IP socket (1)
+2025-12-15 23:37:10,090 - __main__ - ERROR - ❌ Impossible de se connecter à la base de données
+
+Erreur : Impossible d'initialiser le pool de connexions: 2004 (HY000): Can't create TCP/IP socket (1)
+
+Vérifications :
+1. MySQL/MariaDB est démarré ?
+2. Les paramètres dans .env sont corrects ?
+3. La base COMPTA existe ?
+   → mysql -u root -p < schema_comptabilite.sql
+2025-12-15 23:37:10,091 - __main__ - CRITICAL - 💥 Erreur fatale : couldn't connect to display ":1"
+Traceback (most recent call last):
+  File "/home/bracoul/Bureau/Bureau/comptabilite/compta/comptabilite-python/venv/lib/python3.12/site-packages/mysql/connector/connection_cext.py", line 308, in _open_connection
+    self._cmysql.connect(**cnx_kwargs)
+_mysql_connector.MySQLInterfaceError: Can't create TCP/IP socket (1)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/bracoul/Bureau/Bureau/comptabilite/compta/comptabilite-python/src/infrastructure/persistence/database.py", line 38, in _init_pool
+    DatabaseManager._connection_pool = pooling.MySQLConnectionPool(
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bracoul/Bureau/Bureau/comptabilite/compta/comptabilite-python/venv/lib/python3.12/site-packages/mysql/connector/pooling.py", line 430, in __init__
+    self.add_connection()
+  File "/home/bracoul/Bureau/Bureau/comptabilite/compta/comptabilite-python/venv/lib/python3.12/site-packages/mysql/connector/pooling.py", line 538, in add_connection
+    cnx = connect(**self._cnx_config)  # type: ignore[assignment]
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bracoul/Bureau/Bureau/comptabilite/compta/comptabilite-python/venv/lib/python3.12/site-packages/mysql/connector/pooling.py", line 293, in connect
+    return CMySQLConnection(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bracoul/Bureau/Bureau/comptabilite/compta/comptabilite-python/venv/lib/python3.12/site-packages/mysql/connector/connection_cext.py", line 129, in __init__
+    self.connect(**kwargs)
+  File "/home/bracoul/Bureau/Bureau/comptabilite/compta/comptabilite-python/venv/lib/python3.12/site-packages/mysql/connector/abstracts.py", line 1237, in connect
+    self._open_connection()
+  File "/home/bracoul/Bureau/Bureau/comptabilite/compta/comptabilite-python/venv/lib/python3.12/site-packages/mysql/connector/connection_cext.py", line 313, in _open_connection
+    raise get_mysql_exception(
+mysql.connector.errors.DatabaseError: 2004 (HY000): Can't create TCP/IP socket (1)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bracoul/Bureau/Bureau/comptabilite/compta/comptabilite-python/main.py", line 125, in main
+    db = DatabaseManager()
+         ^^^^^^^^^^^^^^^^^
+  File "/home/bracoul/Bureau/Bureau/comptabilite/compta/comptabilite-python/src/infrastructure/persistence/database.py", line 31, in __init__
+    self._init_pool()
+  File "/home/bracoul/Bureau/Bureau/comptabilite/compta/comptabilite-python/src/infrastructure/persistence/database.py", line 47, in _init_pool
+    raise DatabaseError(f"Impossible d'initialiser le pool de connexions: {e}")
+src.infrastructure.persistence.database.DatabaseError: Impossible d'initialiser le pool de connexions: 2004 (HY000): Can't create TCP/IP socket (1)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bracoul/Bureau/Bureau/comptabilite/compta/comptabilite-python/main.py", line 185, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/home/bracoul/Bureau/Bureau/comptabilite/compta/comptabilite-python/main.py", line 147, in main
+    show_error_dialog("Erreur de connexion", error_msg)
+  File "/home/bracoul/Bureau/Bureau/comptabilite/compta/comptabilite-python/main.py", line 73, in show_error_dialog
+    root = tk.Tk()
+           ^^^^^^^
+  File "/usr/lib/python3.12/tkinter/__init__.py", line 2345, in __init__
+    self.tk = _tkinter.create(screenName, baseName, className, interactive, wantobjects, useTk, sync, use)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_tkinter.TclError: couldn't connect to display ":1"
+2025-12-15 23:40:35,657 - __main__ - INFO - ============================================================
+2025-12-15 23:40:35,657 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-12-15 23:40:35,657 - __main__ - INFO - ============================================================
+2025-12-15 23:40:35,657 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-12-15 23:40:35,703 - __main__ - INFO - ✅ Toutes les dépendances sont installées
+2025-12-15 23:40:35,703 - __main__ - INFO - 🔍 Vérification de la configuration...
+2025-12-15 23:40:35,703 - __main__ - INFO - ✅ Configuration OK
+2025-12-15 23:40:35,703 - __main__ - INFO - 🔍 Test de connexion à la base de données...
+2025-12-15 23:40:35,836 - src.infrastructure.persistence.database - INFO - ✅ Pool de connexions initialisé (taille: 5)
+2025-12-15 23:40:35,837 - __main__ - INFO - ✅ Connecté à : COMPTA
+2025-12-15 23:40:35,837 - __main__ - INFO - ✅ Version MySQL : 8.0.44-0ubuntu0.24.04.2
+2025-12-15 23:40:35,837 - src.infrastructure.persistence.database - INFO - 🔌 Connexion fermée
+2025-12-15 23:40:35,837 - __main__ - INFO - 🚀 Lancement de l'interface graphique...
+2025-12-15 23:40:36,007 - __main__ - INFO - ✅ Interface moderne (ttkbootstrap) activée
+2025-12-15 23:40:36,010 - src.presentation.gui_main - INFO - ✅ Application démarrée
+2025-12-15 23:40:36,078 - __main__ - INFO - ✅ Application démarrée avec succès
+2025-12-15 23:40:36,078 - __main__ - INFO - ============================================================
+2025-12-15 23:42:54,480 - __main__ - INFO - 👋 Application fermée
+2025-12-16 00:07:16,532 - __main__ - INFO - ============================================================
+2025-12-16 00:07:16,532 - __main__ - INFO - DÉMARRAGE DE L'APPLICATION DE COMPTABILITÉ
+2025-12-16 00:07:16,532 - __main__ - INFO - ============================================================
+2025-12-16 00:07:16,532 - __main__ - INFO - 🔍 Vérification des dépendances...
+2025-12-16 00:07:16,595 - __main__ - INFO - ✅ Toutes les dépendances sont installées
+2025-12-16 00:07:16,595 - __main__ - INFO - 🔍 Vérification de la configuration...
+2025-12-16 00:07:16,596 - __main__ - INFO - ✅ Configuration OK
+2025-12-16 00:07:16,596 - __main__ - INFO - 🔍 Test de connexion à la base de données...
+2025-12-16 00:07:16,725 - src.infrastructure.persistence.database - INFO - ✅ Pool de connexions initialisé (taille: 5)
+2025-12-16 00:07:16,726 - __main__ - INFO - ✅ Connecté à : COMPTA
+2025-12-16 00:07:16,726 - __main__ - INFO - ✅ Version MySQL : 8.0.44-0ubuntu0.24.04.2
+2025-12-16 00:07:16,727 - src.infrastructure.persistence.database - INFO - 🔌 Connexion fermée
+2025-12-16 00:07:16,727 - __main__ - INFO - 🚀 Lancement de l'interface graphique...
+2025-12-16 00:07:16,898 - __main__ - INFO - ✅ Interface moderne (ttkbootstrap) activée
+2025-12-16 00:07:16,900 - src.presentation.gui_main - INFO - ✅ Application démarrée
+2025-12-16 00:07:16,963 - __main__ - INFO - ✅ Application démarrée avec succès
+2025-12-16 00:07:16,963 - __main__ - INFO - ============================================================
+2025-12-16 00:42:48,853 - __main__ - INFO - 👋 Application fermée

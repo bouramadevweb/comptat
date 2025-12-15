@@ -18,6 +18,7 @@ from src.infrastructure.persistence.dao import (
 )
 from src.application.services import ComptabiliteService
 from src.domain.models import *
+from src.presentation.widgets import MenuBar, ToolBar, StatusBar
 import logging
 
 logging.basicConfig(level=logging.INFO)
@@ -57,69 +58,55 @@ class ComptaApp:
         # Variables de session
         self.societe_courante: Optional[Societe] = None
         self.exercice_courant: Optional[Exercice] = None
-        
+
         # Créer l'interface
-        self.create_menu()
-        self.create_widgets()
+        self._create_ui()
         self.load_initial_data()
     
-    def create_menu(self):
-        """Crée la barre de menu"""
-        menubar = tk.Menu(self.root)
-        self.root.config(menu=menubar)
-        
-        # Menu Fichier
-        file_menu = tk.Menu(menubar, tearoff=0)
-        menubar.add_cascade(label="Fichier", menu=file_menu)
-        file_menu.add_command(label="📊 Tableau de Bord", command=self.afficher_dashboard)
-        file_menu.add_separator()
-        file_menu.add_command(label="📥 Importer CSV", command=self.import_csv)
-        file_menu.add_command(label="Exporter FEC", command=self.exporter_fec)
-        file_menu.add_separator()
-        file_menu.add_command(label="Quitter", command=self.quit_app)
-        
-        # Menu Comptabilité
-        compta_menu = tk.Menu(menubar, tearoff=0)
-        menubar.add_cascade(label="Comptabilité", menu=compta_menu)
-        compta_menu.add_command(label="Nouvelle écriture", command=self.nouvelle_ecriture)
-        compta_menu.add_command(label="Saisie Vente", command=self.saisie_vente)
-        compta_menu.add_command(label="Saisie Achat", command=self.saisie_achat)
-        compta_menu.add_separator()
-        compta_menu.add_command(label="🔗 Lettrage", command=self.ouvrir_lettrage)
-        compta_menu.add_separator()
-        compta_menu.add_command(label="Calculer Balance", command=self.calculer_balance)
-        
-        # Menu Rapports
-        rapports_menu = tk.Menu(menubar, tearoff=0)
-        menubar.add_cascade(label="Rapports", menu=rapports_menu)
-        rapports_menu.add_command(label="Balance", command=self.afficher_balance)
-        rapports_menu.add_command(label="📚 Grand Livre", command=self.afficher_grand_livre)
-        rapports_menu.add_separator()
-        rapports_menu.add_command(label="Compte de résultat", command=self.afficher_resultat)
-        rapports_menu.add_command(label="Bilan", command=self.afficher_bilan)
-        rapports_menu.add_command(label="TVA", command=self.afficher_tva)
-        
-        # Menu Clôture
-        cloture_menu = tk.Menu(menubar, tearoff=0)
-        menubar.add_cascade(label="Clôture", menu=cloture_menu)
-        cloture_menu.add_command(label="Tester comptabilité", command=self.tester_comptabilite)
-        cloture_menu.add_command(label="Clôturer exercice", command=self.cloturer_exercice)
-        
-        # Menu Gestion
-        gestion_menu = tk.Menu(menubar, tearoff=0)
-        menubar.add_cascade(label="Gestion", menu=gestion_menu)
-        gestion_menu.add_command(label="👥 Gestion des Tiers", command=self.gestion_tiers)
+    def _create_ui(self):
+        """Crée l'interface utilisateur avec les widgets extraits"""
+        # Créer les callbacks pour le menu et la toolbar
+        menu_callbacks = {
+            'afficher_dashboard': self.afficher_dashboard,
+            'import_csv': self.import_csv,
+            'exporter_fec': self.exporter_fec,
+            'quit_app': self.quit_app,
+            'nouvelle_ecriture': self.nouvelle_ecriture,
+            'saisie_vente': self.saisie_vente,
+            'saisie_achat': self.saisie_achat,
+            'ouvrir_lettrage': self.ouvrir_lettrage,
+            'calculer_balance': self.calculer_balance,
+            'afficher_balance': self.afficher_balance,
+            'afficher_grand_livre': self.afficher_grand_livre,
+            'afficher_resultat': self.afficher_resultat,
+            'afficher_bilan': self.afficher_bilan,
+            'afficher_tva': self.afficher_tva,
+            'tester_comptabilite': self.tester_comptabilite,
+            'cloturer_exercice': self.cloturer_exercice,
+            'gestion_tiers': self.gestion_tiers,
+            'about': self.about,
+        }
 
-        # Menu Aide
-        aide_menu = tk.Menu(menubar, tearoff=0)
-        menubar.add_cascade(label="Aide", menu=aide_menu)
-        aide_menu.add_command(label="À propos", command=self.about)
-    
-    def create_widgets(self):
+        # Créer la barre de menu
+        self.menubar = MenuBar(self.root, menu_callbacks)
+        self.menubar.attach_to(self.root)
+
+        # Créer la toolbar et la positionner
+        self.toolbar = ToolBar(self.root, menu_callbacks)
+        self.toolbar.frame.grid(row=0, column=0, sticky=(tk.W, tk.E), columnspan=2)
+
+        # Créer les widgets centraux
+        self._create_central_widgets()
+
+        # Créer la barre de statut et la positionner
+        self.statusbar = StatusBar(self.root)
+        self.statusbar.frame.grid(row=4, column=0, sticky=(tk.W, tk.E), columnspan=2)
+
+    def _create_central_widgets(self):
         """Crée les widgets de l'interface"""
         # Frame supérieur : informations société/exercice
         top_frame = ttk.Frame(self.root, padding="10")
-        top_frame.grid(row=0, column=0, sticky=(tk.W, tk.E), columnspan=2)
+        top_frame.grid(row=1, column=0, sticky=(tk.W, tk.E), columnspan=2)
         
         ttk.Label(top_frame, text="Société:", font=('Arial', 10, 'bold')).grid(row=0, column=0, sticky=tk.W)
         self.lbl_societe = ttk.Label(top_frame, text="Non sélectionnée", foreground='red')
@@ -130,11 +117,11 @@ class ComptaApp:
         self.lbl_exercice.grid(row=0, column=3, sticky=tk.W, padx=10)
         
         # Séparateur
-        ttk.Separator(self.root, orient='horizontal').grid(row=1, column=0, sticky=(tk.W, tk.E), columnspan=2)
-        
+        ttk.Separator(self.root, orient='horizontal').grid(row=2, column=0, sticky=(tk.W, tk.E), columnspan=2)
+
         # Frame principal avec notebook (onglets)
         self.notebook = ttk.Notebook(self.root)
-        self.notebook.grid(row=2, column=0, sticky=(tk.W, tk.E, tk.N, tk.S), padx=10, pady=10, columnspan=2)
+        self.notebook.grid(row=3, column=0, sticky=(tk.W, tk.E, tk.N, tk.S), padx=10, pady=10, columnspan=2)
         
         # Onglets
         self.create_tab_ecritures()
@@ -144,11 +131,7 @@ class ComptaApp:
         
         # Configuration du redimensionnement
         self.root.columnconfigure(0, weight=1)
-        self.root.rowconfigure(2, weight=1)
-        
-        # Barre de statut
-        self.status_bar = ttk.Label(self.root, text="Prêt", relief=tk.SUNKEN, anchor=tk.W)
-        self.status_bar.grid(row=3, column=0, sticky=(tk.W, tk.E), columnspan=2)
+        self.root.rowconfigure(3, weight=1)  # Le notebook est maintenant à row=3
     
     def create_tab_ecritures(self):
         """Onglet des écritures"""
@@ -335,7 +318,10 @@ class ComptaApp:
         if societes:
             self.societe_courante = societes[0]
             self.lbl_societe.config(text=self.societe_courante.nom, foreground='green')
-            
+
+            # Mettre à jour la barre de statut
+            self.statusbar.update_societe(self.societe_courante.nom)
+
             # Charger l'exercice en cours
             exercice = self.service.get_exercice_courant(self.societe_courante.id)
             if exercice:
@@ -344,15 +330,21 @@ class ComptaApp:
                     text=f"{exercice.annee} ({exercice.date_debut} → {exercice.date_fin})",
                     foreground='green'
                 )
-            
+
+                # Mettre à jour la barre de statut
+                self.statusbar.update_exercice(exercice.annee, exercice.cloture)
+
             # Charger les journaux
             self.load_journaux()
-            
+
             # Charger les données des onglets
             self.load_ecritures()
             self.load_comptes()
             self.load_tiers()
             self.update_dashboard()
+
+            # Statut final
+            self.statusbar.update_status("Prêt")
     
     def load_journaux(self):
         """Charge les journaux dans le combobox"""
@@ -391,8 +383,8 @@ class ComptaApp:
                 ecriture.libelle or '',
                 f"{montant:.2f} €"
             ))
-        
-        self.status_bar.config(text=f"{len(ecritures)} écritures chargées")
+
+        self.statusbar.update_status(f"{len(ecritures)} écritures chargées")
     
     def load_comptes(self):
         """Charge les comptes"""
@@ -436,8 +428,8 @@ class ComptaApp:
                 t.type,
                 t.ville or ''
             ))
-        
-        self.status_bar.config(text=f"{len(tiers)} tiers chargés")
+
+        self.statusbar.update_status(f"{len(tiers)} tiers chargés")
     
     def search_comptes(self):
         """Recherche des comptes"""
@@ -463,8 +455,8 @@ class ComptaApp:
                 compte.classe,
                 compte.type_compte
             ))
-        
-        self.status_bar.config(text=f"{len(comptes)} comptes trouvés")
+
+        self.statusbar.update_status(f"{len(comptes)} comptes trouvés")
     
     def update_dashboard(self):
         """Met à jour le tableau de bord"""

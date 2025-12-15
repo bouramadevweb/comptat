@@ -25,11 +25,9 @@ class TestSocieteDAO:
                 'id': 1,
                 'nom': 'Test SARL',
                 'siren': '123456789',
-                'adresse': '10 Rue Test',
                 'code_postal': '75001',
                 'ville': 'Paris',
-                'forme_juridique': 'SARL',
-                'capital': Decimal('10000.00'),
+                'pays': 'FR',
                 'date_creation': date(2024, 1, 1)
             }
         ]
@@ -58,11 +56,9 @@ class TestSocieteDAO:
                 'id': 1,
                 'nom': 'Test SARL',
                 'siren': '123456789',
-                'adresse': '10 Rue Test',
                 'code_postal': '75001',
                 'ville': 'Paris',
-                'forme_juridique': 'SARL',
-                'capital': Decimal('10000.00'),
+                'pays': 'FR',
                 'date_creation': date(2024, 1, 1)
             }
         ]
@@ -85,22 +81,25 @@ class TestSocieteDAO:
 
     def test_create_success(self, mock_db):
         """Test: création d'une société"""
-        cursor_mock = Mock()
-        cursor_mock.lastrowid = 1
-        mock_db.get_cursor.return_value.__enter__.return_value = cursor_mock
+        # Mock pour le lastrowid
+        mock_db.connection.cursor.return_value.lastrowid = 1
+        mock_db.execute_query.return_value = None
 
         dao = SocieteDAO(mock_db)
-        societe_id = dao.create(
+
+        societe = Societe(
             nom="Nouvelle SARL",
             siren="987654321",
-            adresse="20 Avenue Test",
             code_postal="69001",
             ville="Lyon",
-            forme_juridique="SARL",
-            capital=Decimal("5000.00")
+            pays="FR",
+            date_creation=date(2024, 1, 1)
         )
 
+        societe_id = dao.create(societe)
+
         assert societe_id == 1
+        mock_db.execute_query.assert_called_once()
 
 
 @pytest.mark.unit
@@ -158,19 +157,20 @@ class TestExerciceDAO:
 
     def test_create_success(self, mock_db):
         """Test: création d'un exercice"""
-        cursor_mock = Mock()
-        cursor_mock.lastrowid = 2
-        mock_db.get_cursor.return_value.__enter__.return_value = cursor_mock
-
         dao = ExerciceDAO(mock_db)
-        exercice_id = dao.create(
+
+        exercice = Exercice(
             societe_id=1,
             annee=2026,
             date_debut=date(2026, 1, 1),
-            date_fin=date(2026, 12, 31)
+            date_fin=date(2026, 12, 31),
+            cloture=False
         )
 
-        assert exercice_id == 2
+        exercice_id = dao.create(exercice)
+
+        assert exercice_id == 1  # Le mock retourne 1 par défaut
+        mock_db.execute_query.assert_called_once()
 
 
 @pytest.mark.unit
@@ -362,19 +362,21 @@ class TestTiersDAO:
 
     def test_create_success(self, mock_db):
         """Test: création d'un tiers"""
-        cursor_mock = Mock()
-        cursor_mock.lastrowid = 2
-        mock_db.get_cursor.return_value.__enter__.return_value = cursor_mock
-
         dao = TiersDAO(mock_db)
-        tiers_id = dao.create(
+
+        tiers = Tiers(
             societe_id=1,
             code_aux='CLI002',
             nom='Nouveau Client',
-            type='CLIENT'
+            type='CLIENT',
+            adresse=None,
+            ville=None,
+            pays='FR'
         )
 
-        assert tiers_id == 2
+        tiers_id = dao.create(tiers)
+
+        assert tiers_id == 1  # Le mock retourne 1 par défaut
 
 
 @pytest.mark.unit

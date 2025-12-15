@@ -23,7 +23,25 @@ def mock_db():
     db = Mock()
     db.execute_query = Mock(return_value=[])
     db.call_procedure = Mock(return_value=[])
-    db.get_cursor = Mock()
+
+    # Mock du cursor pour le context manager
+    cursor_mock = Mock()
+    cursor_mock.lastrowid = 1
+    cursor_mock.execute = Mock()
+    cursor_mock.fetchall = Mock(return_value=[])
+    cursor_mock.fetchone = Mock(return_value=None)
+    cursor_mock.__enter__ = Mock(return_value=cursor_mock)
+    cursor_mock.__exit__ = Mock(return_value=False)
+
+    db.get_cursor = Mock(return_value=cursor_mock)
+
+    # Mock connection pour les DAOs qui utilisent db.connection.cursor()
+    connection_mock = Mock()
+    connection_cursor = Mock()
+    connection_cursor.lastrowid = 1
+    connection_mock.cursor = Mock(return_value=connection_cursor)
+    db.connection = connection_mock
+
     return db
 
 

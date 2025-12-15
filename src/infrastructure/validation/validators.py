@@ -196,6 +196,68 @@ class ComptabiliteValidator:
         return ValidationResult(True)
 
     @staticmethod
+    def valider_dates_exercice(date_debut: date, date_fin: date) -> ValidationResult:
+        """
+        Valide les dates d'un exercice comptable
+        - La date de début doit être avant la date de fin
+        - La durée doit être entre 10 et 18 mois environ (300-550 jours)
+        - Un exercice normal dure 12 mois, mais peut aller jusqu'à 18 mois
+          (premier exercice ou exercice de clôture)
+        """
+        if date_debut >= date_fin:
+            return ValidationResult(False, "La date de début doit être avant la date de fin")
+
+        duree = (date_fin - date_debut).days
+
+        # Vérifier durée minimum (~10 mois)
+        if duree < 300:
+            return ValidationResult(False, "Un exercice doit durer au moins 10 mois")
+
+        # Vérifier durée maximum (~18 mois)
+        if duree > 550:
+            return ValidationResult(False, "Un exercice ne peut pas dépasser 18 mois")
+
+        return ValidationResult(True)
+
+    @staticmethod
+    def valider_code_journal(code: str) -> ValidationResult:
+        """
+        Valide un code journal
+        - Doit faire entre 2 et 5 caractères
+        - Doit être en majuscules
+        - Pas de caractères spéciaux
+        """
+        if not code or len(code) < 2 or len(code) > 5:
+            return ValidationResult(False, "Le code journal doit faire entre 2 et 5 caractères")
+
+        if not code.isupper():
+            return ValidationResult(False, "Le code journal doit être en majuscules")
+
+        if not code.isalnum():
+            return ValidationResult(False, "Le code journal ne doit contenir que des lettres et chiffres")
+
+        return ValidationResult(True)
+
+    @staticmethod
+    def valider_code_tva(code: str) -> ValidationResult:
+        """
+        Valide un code de compte TVA
+        - Doit être un numéro de compte de TVA (commence par 4457 ou 4456)
+        - Doit faire 6 chiffres
+        """
+        if not code or len(code) != 6:
+            return ValidationResult(False, "Le code TVA doit faire 6 caractères")
+
+        if not code.isdigit():
+            return ValidationResult(False, "Le code TVA doit être composé uniquement de chiffres")
+
+        # Vérifier que c'est un compte de TVA (4457xx = TVA collectée, 4456xx = TVA déductible)
+        if not (code.startswith('4457') or code.startswith('4456')):
+            return ValidationResult(False, "Le code TVA doit commencer par 4457 (TVA collectée) ou 4456 (TVA déductible)")
+
+        return ValidationResult(True)
+
+    @staticmethod
     def valider_exercice_annee(annee: int) -> ValidationResult:
         """
         Valide une année d'exercice
